@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bar Harbor & Acadia — October 2026 Cost Estimate</title>
+<style>
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  color: #1a1a1a;
+}
+.page-title { font-size: 22px; font-weight: 800; margin: 0 0 0.15rem; }
+.page-subtitle { font-size: 13px; color: #666; margin: 0 0 1.25rem; }
+
+/* Total banner */
+.total-banner { background: #E6F1FB; border-radius: 10px; padding: 16px 20px; margin-bottom: 1.1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+.total-left .total-label { font-size: 12px; color: #0C447C; margin: 0; }
+.total-left .total-amount { font-size: 26px; font-weight: 800; color: #0C447C; margin: 4px 0 0; }
+.total-right { text-align: right; }
+.total-right p { font-size: 11px; color: #0C447C; margin: 2px 0; }
+
+/* Note banner */
+.note-banner { background: #EAF3DE; border-radius: 10px; padding: 12px 16px; margin-bottom: 1.1rem; }
+.note-banner p { font-size: 12px; color: #27500A; margin: 0; line-height: 1.55; }
+
+/* Cards and tables */
+.card { border: 1px solid #e5e5e5; border-radius: 12px; overflow: hidden; margin-bottom: 1.1rem; }
+.card-header { background: #fafafa; padding: 0.65rem 1rem; border-bottom: 1px solid #e5e5e5; display: flex; justify-content: space-between; align-items: center; }
+.card-header .section-title { font-size: 14px; font-weight: 700; margin: 0; }
+.card-header .section-range { font-size: 12px; font-weight: 700; color: #555; margin: 0; }
+table { width: 100%; border-collapse: collapse; }
+td { padding: 7px 14px; font-size: 12px; border-bottom: 1px solid #f2f2f2; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+.item-name { font-weight: 600; }
+.item-detail { color: #666; }
+.item-cost { text-align: right; white-space: nowrap; font-weight: 600; }
+.note-row td { background: #fafafa; color: #888; font-size: 11px; font-style: italic; }
+.free-cost { color: #27500A; }
+.pill { display: inline-block; font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 20px; margin-left: 4px; vertical-align: middle; }
+.pill-confirmed { background: #EAF3DE; color: #27500A; }
+.pill-est { background: #FAEEDA; color: #633806; }
+
+/* Summary grid */
+.summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 1.1rem; }
+.summary-card { border: 1px solid #e5e5e5; border-radius: 10px; padding: 14px; text-align: center; }
+.summary-card .summary-label { font-size: 11px; color: #666; margin: 0 0 4px; }
+.summary-card .summary-amount { font-size: 20px; font-weight: 800; margin: 0; }
+.summary-budget .summary-amount { color: #27500A; }
+.summary-mid .summary-amount { color: #0C447C; }
+.summary-high .summary-amount { color: #633806; }
+
+/* Tips box */
+.tips-box { background: #EEEDFE; border-radius: 10px; padding: 14px 18px; margin-bottom: 1rem; }
+.tips-box .tips-title { font-size: 13px; font-weight: 700; color: #3C3489; margin: 0 0 8px; }
+.tips-box ul { margin: 0; padding: 0 0 0 18px; }
+.tips-box li { font-size: 11px; color: #3C3489; line-height: 1.6; margin-bottom: 4px; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #1a1a1a; color: #e5e5e5; }
+  .card { border-color: #333; }
+  .card-header { background: #222; border-color: #333; }
+  td { border-color: #2a2a2a; }
+  .note-row td { background: #222; color: #666; }
+  .item-detail { color: #999; }
+  .page-subtitle { color: #888; }
+  .total-banner { background: #1e2d3d; }
+  .total-left .total-label, .total-left .total-amount, .total-right p { color: #7db8e8; }
+  .note-banner { background: #1e2d1e; }
+  .note-banner p { color: #8ecf6e; }
+  .tips-box { background: #24223d; }
+  .tips-box .tips-title, .tips-box li { color: #b0adee; }
+  .summary-card { border-color: #333; }
+  .summary-card .summary-label { color: #888; }
+}
+
+@media (max-width: 520px) {
+  .summary-grid { grid-template-columns: 1fr; }
+  .total-banner { flex-direction: column; align-items: flex-start; }
+  .total-right { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<p class="page-title">Bar Harbor & Acadia — Cost Estimate</p>
+<p class="page-subtitle">October 11–16, 2026 · 2 travelers · 5 nights</p>
+
+<!-- Total banner -->
+<div class="total-banner">
+  <div class="total-left">
+    <p class="total-label">Estimated total for 2 people</p>
+    <p class="total-amount">$2,200 – $3,200</p>
+  </div>
+  <div class="total-right">
+    <p><strong>Budget:</strong> ~$2,200</p>
+    <p><strong>Comfortable:</strong> ~$2,700</p>
+    <p><strong>Higher end:</strong> ~$3,200</p>
+  </div>
+</div>
+
+<!-- Lodging note -->
+<div class="note-banner">
+  <p>🏨 <strong>No Club Wyndham property available near Bar Harbor.</strong> The closest Club Wyndham resort is Bentley Brook in Hancock, MA — over 5 hours away. This estimate uses a mid-range Bar Harbor inn at $150–200/night. If you can exchange Wyndham points through RCI for a local property, lodging costs could drop significantly.</p>
+</div>
+
+<!-- ===== FLIGHTS ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">✈️ Flights</p>
+    <p class="section-range">$600 – $800</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">DFW → BGR (roundtrip × 2 people)</td>
+      <td class="item-detail">Connecting via DCA, CLT, or PHL · American, Delta, or United</td>
+      <td class="item-cost">$600–$800 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">Based on October 2025 pricing for similar routes. Book by August for best fares. No direct DFW–BGR service available.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== CAR RENTAL ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🚗 Car Rental</p>
+    <p class="section-range">$250 – $400</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Mid-size sedan or SUV — 5 days</td>
+      <td class="item-detail">BGR pickup/return · Enterprise, Hertz, or National</td>
+      <td class="item-cost">$250–$400 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">October is shoulder season — rates are lower than summer. Gas for the week estimated at $30–50 additional (distances are short).</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== LODGING ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🏨 Lodging</p>
+    <p class="section-range">$750 – $1,000</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Bar Harbor inn — 5 nights</td>
+      <td class="item-detail">The Inn on Mount Desert, Bass Cottage, or similar · breakfast included</td>
+      <td class="item-cost">$750–$1,000 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">Mid-October is off-peak — rates drop noticeably after Columbus Day. Many B&amp;Bs include a full hot breakfast, saving $15–20/day on morning meals.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== ATTRACTIONS ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🎭 Attractions & Park Fees</p>
+    <p class="section-range">$67 – $85</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Acadia National Park entrance</td>
+      <td class="item-detail">7-day vehicle pass</td>
+      <td class="item-cost">$35 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Cadillac Mountain vehicle reservation</td>
+      <td class="item-detail">Daytime slot · recreation.gov</td>
+      <td class="item-cost">$6 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Abbe Museum (Downtown)</td>
+      <td class="item-detail">2 admissions</td>
+      <td class="item-cost">$20 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Seal Cove Auto Museum</td>
+      <td class="item-detail">2 senior admissions</td>
+      <td class="item-cost">$16 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Asticou Azalea Garden</td>
+      <td class="item-detail">Suggested donation × 2</td>
+      <td class="item-cost">$10 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Park Loop Road</td>
+      <td class="item-detail">Covered by park pass</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Schoodic Peninsula</td>
+      <td class="item-detail">Covered by park pass</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Sand Beach / Thunder Hole / Otter Cliffs</td>
+      <td class="item-detail">Roadside overlooks, no admission</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Bar Harbor Village / Shore Path</td>
+      <td class="item-detail">Public walkway</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Northeast Harbor / Blue Hill</td>
+      <td class="item-detail">Exploring villages</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Sargent Drive scenic road</td>
+      <td class="item-detail">Public road</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== DINING ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🍽️ Dining</p>
+    <p class="section-range">$450 – $680</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Breakfasts (5 mornings)</td>
+      <td class="item-detail">Included with inn — complimentary</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 1 — La Bella Vita (dinner)</td>
+      <td class="item-detail">Italian · flatbread, pasta, antipasti</td>
+      <td class="item-cost">$70–$90 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 2 — Jordan Pond House (lunch)</td>
+      <td class="item-detail">Popovers, soups, sandwiches</td>
+      <td class="item-cost">$50–$70 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 2 — Mama DiMatteo's (dinner)</td>
+      <td class="item-detail">Italian / New American</td>
+      <td class="item-cost">$60–$80 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 3 — Lunch in Bar Harbor (casual)</td>
+      <td class="item-detail">Café or quick-service while exploring</td>
+      <td class="item-cost">$30–$40 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 3 — The Royal Indian (dinner)</td>
+      <td class="item-detail">Modern Indian cuisine</td>
+      <td class="item-cost">$50–$70 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 4 — Northeast Harbor café (lunch)</td>
+      <td class="item-detail">Casual lunch while exploring</td>
+      <td class="item-cost">$30–$40 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 4 — Testa's (farewell dinner)</td>
+      <td class="item-detail">Italian-American classics since 1934</td>
+      <td class="item-cost">$70–$90 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 5 — Winter Harbor (lunch)</td>
+      <td class="item-detail">Casual eatery near Schoodic</td>
+      <td class="item-cost">$40–$60 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Day 5 — Geddy's (dinner)</td>
+      <td class="item-detail">Burgers, pizza, steak tips</td>
+      <td class="item-cost">$50–$70 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">All dinner estimates include entrées and non-alcoholic drinks for 2 people, tax and tip included. No lobster or clam chowder — all restaurants selected for strong non-seafood options.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== MISC ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">💳 Miscellaneous</p>
+    <p class="section-range">$30 – $50</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Gas for rental car</td>
+      <td class="item-detail">~200 miles total driving over the trip</td>
+      <td class="item-cost">$30–$50 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Parking</td>
+      <td class="item-detail">Most lots free in mid-October; inn has free parking</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Souvenirs / shopping</td>
+      <td class="item-detail">Varies</td>
+      <td class="item-cost">Varies</td>
+    </tr>
+  </table>
+</div>
+
+<!-- Summary grid -->
+<div class="summary-grid">
+  <div class="summary-card summary-budget">
+    <p class="summary-label">Budget End</p>
+    <p class="summary-amount">~$2,200</p>
+  </div>
+  <div class="summary-card summary-mid">
+    <p class="summary-label">Comfortable Mid</p>
+    <p class="summary-amount">~$2,700</p>
+  </div>
+  <div class="summary-card summary-high">
+    <p class="summary-label">Higher End</p>
+    <p class="summary-amount">~$3,200</p>
+  </div>
+</div>
+
+<!-- Tips box -->
+<div class="tips-box">
+  <p class="tips-title">💡 Money-Saving Tips for This Trip</p>
+  <ul>
+    <li><strong>Book flights by August:</strong> DFW–BGR fares climb as fall foliage season approaches. Set a fare alert on Google Flights now.</li>
+    <li><strong>Check RCI exchanges:</strong> Even without a Club Wyndham nearby, your Wyndham points may exchange through RCI for a local vacation rental — worth checking before booking a hotel.</li>
+    <li><strong>Inn breakfast saves money:</strong> Choose a B&amp;B with complimentary breakfast. At $15–20/person/day, that's $150–$200 saved over the trip.</li>
+    <li><strong>Post–Columbus Day pricing:</strong> Hotel rates in Bar Harbor drop 20–30% after Columbus Day weekend (Oct 12). Your Oct 11 arrival catches the tail end of this sweet spot.</li>
+    <li><strong>Cadillac Mountain — book the 2-day window:</strong> 70% of vehicle reservations release just 2 days before. If you miss the 90-day window, you'll likely still get a slot.</li>
+    <li><strong>Pack layers:</strong> Mid-October temps range from low 40s at night to upper 50s by day. A good jacket and layers mean you won't need to buy emergency warm clothes in tourist shops.</li>
+  </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,618 @@
+{
+  "name": "Hershey PA Fall Colors",
+  "dates": {
+    "start": "2027-10-14",
+    "end": "2027-10-19"
+  },
+  "travelers": 2,
+  "airports": {
+    "flyIn": "MDT",
+    "flyOut": "MDT"
+  },
+  "alignmentNote": "Arrive Thursday Oct 14. Day 2 = Friday — Harris-Cameron Mansion tours run Tuesday–Friday only (1/2/3 PM slots); the Friday 1 PM slot is the scheduling anchor. Day 3 = Saturday — High Point Mansion tours run Saturdays only; tickets release September 15, 2027 at HersheyStory.org. October 15–19 falls squarely in peak fall foliage week for Dauphin County, Central PA (typical peak: Oct 15–25).",
+  "days": [
+    {
+      "dayNumber": 0,
+      "title": "Arrival Day",
+      "subtitle": "Thursday, Oct 14",
+      "category": "travel",
+      "drivingTime": "20 min",
+      "drivingMiles": "15 mi",
+      "tip": "Grab a bite at DFW before departing — no planned breakfast or lunch on the travel day. MDT is a small, easy airport; baggage and rental car pickup are quick.",
+      "stops": [
+        {
+          "id": "d0-s1",
+          "time": "Morning",
+          "name": "Fly DFW → MDT (Harrisburg)",
+          "mapUrl": "https://www.google.com/maps/search/Dallas+Fort+Worth+International+Airport",
+          "placeholderEmoji": "✈️",
+          "description": "Fly from Dallas/Fort Worth to Harrisburg International (MDT) via connection through Philadelphia (PHL) or Charlotte (CLT). Total travel time approximately 4–5 hours including connection.",
+          "pricing": { "amount": "$280–550/pp est.", "type": "estimated" },
+          "coords": { "lat": 32.8998, "lng": -97.0403 },
+          "status": "planned"
+        },
+        {
+          "id": "d0-s2",
+          "time": "~1:00 PM",
+          "name": "Pick up rental car — MDT",
+          "mapUrl": "https://www.google.com/maps/search/Harrisburg+International+Airport+MDT+Middletown+PA",
+          "placeholderEmoji": "🚗",
+          "description": "Rental car counters are inside the terminal at Harrisburg International. Drive is approximately 15 miles west to Hershey on PA-283 — an easy 20-minute trip with no highway complexity.",
+          "pricing": { "amount": "~$43–88/day est.", "type": "estimated" },
+          "coords": { "lat": 40.1935, "lng": -76.7634 },
+          "status": "planned"
+        },
+        {
+          "id": "d0-s3",
+          "time": "~2:00 PM",
+          "name": "Check in — Hershey Lodge",
+          "mapUrl": "https://www.google.com/maps/search/Hershey+Lodge+325+University+Drive+Hershey+PA",
+          "placeholderEmoji": "🏨",
+          "description": "Official Hersheypark resort hotel; your stay includes free admission to Hershey Gardens and The Hershey Story Museum. Standard check-in at 4 PM — bell desk will hold luggage if you arrive early.",
+          "pricing": { "amount": "$200–310/night est.", "type": "estimated" },
+          "coords": { "lat": 40.2867, "lng": -76.6509 },
+          "lodging": { "type": "primary", "name": "Hershey Lodge" },
+          "status": "planned"
+        },
+        {
+          "id": "d0-s4",
+          "time": "7:00 PM",
+          "name": "Dinner — The Mill in Hershey",
+          "mapUrl": "https://www.google.com/maps/search/The+Mill+in+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Farm-to-table scratch kitchen committed to locally-sourced ingredients from Central PA farms and artisanal producers. Consistently the top-rated local restaurant in Hershey — a perfect first-night meal.",
+          "pricing": { "amount": "~$50–80/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2843, "lng": -76.6460 },
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "dayNumber": 1,
+      "title": "Harrisburg & Carlisle History Day",
+      "subtitle": "Friday, Oct 15",
+      "category": "history",
+      "drivingTime": "1h 30m",
+      "drivingMiles": "75 mi",
+      "tip": "Harris-Cameron Mansion tours require advance reservations — confirm your Friday 1 PM slot at dauphincountyhistory.org before the trip. USAHEC closes at 5 PM; arriving by 2:15 PM gives you a full 2+ hours.",
+      "stops": [
+        {
+          "id": "d1-s1",
+          "time": "8:30 AM",
+          "name": "Breakfast — The Hershey Pantry",
+          "mapUrl": "https://www.google.com/maps/search/The+Hershey+Pantry+845+E+Chocolate+Ave+Hershey+PA",
+          "placeholderEmoji": "☕",
+          "description": "The top-rated local breakfast spot in Hershey — hearty plates and specialty coffee in a cozy setting. Arrive early; the parking lot is small and fills fast on weekday mornings.",
+          "pricing": { "amount": "~$15–22/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2841, "lng": -76.6458 },
+          "status": "planned"
+        },
+        {
+          "id": "d1-s2",
+          "time": "10:00 AM",
+          "name": "National Civil War Museum",
+          "mapUrl": "https://www.google.com/maps/search/National+Civil+War+Museum+1+Lincoln+Circle+Harrisburg+PA",
+          "placeholderEmoji": "🏛️",
+          "description": "One of the largest museums in the world dedicated solely to the Civil War, perched atop Reservoir Park. Covers the full arc of the conflict — causes, battles, and resolution — with weapons, uniforms, letters, and immersive dioramas. A natural companion to the Gettysburg battlefield visit on Day 4.",
+          "pricing": { "amount": "$17/pp (senior)", "type": "confirmed" },
+          "coords": { "lat": 40.2718, "lng": -76.8740 },
+          "hours": "Oct–Mar: Mon–Sat 10 AM–5 PM, Sun 12–5 PM",
+          "status": "planned"
+        },
+        {
+          "id": "d1-s3",
+          "time": "12:00 PM",
+          "name": "Lunch — Yellow Bird Café",
+          "mapUrl": "https://www.google.com/maps/search/Yellow+Bird+Cafe+Harrisburg+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Fresh, casual café in downtown Harrisburg — paninis, wraps, soups, and pastries. Closes at 3 PM daily. Located a short walk from Harris-Cameron Mansion, so the noon-to-1 PM window works perfectly.",
+          "pricing": { "amount": "~$15–22/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2604, "lng": -76.8842 },
+          "hours": "Open until 3 PM daily",
+          "status": "planned"
+        },
+        {
+          "id": "d1-s4",
+          "time": "1:00 PM",
+          "name": "Harris-Cameron Mansion",
+          "mapUrl": "https://www.google.com/maps/search/John+Harris+Simon+Cameron+Mansion+219+S+Front+St+Harrisburg+PA",
+          "placeholderEmoji": "🏠",
+          "description": "Guided tour of one of Harrisburg's oldest buildings (1766), built by John Harris Jr. — the city's founder — on a bluff above the Susquehanna. Blends Georgian and Victorian architecture with period furnishings and stories of early Pennsylvania history. Tours run Tuesday–Friday at 1, 2, and 3 PM only.",
+          "pricing": { "amount": "$10/pp", "type": "confirmed" },
+          "coords": { "lat": 40.2541, "lng": -76.8845 },
+          "hours": "Tours Tue–Fri at 1 PM, 2 PM, 3 PM only",
+          "reservation": "Recommended — book at dauphincountyhistory.org",
+          "status": "planned"
+        },
+        {
+          "id": "d1-s5",
+          "time": "2:15 PM",
+          "name": "USAHEC — U.S. Army Heritage & Education Center",
+          "mapUrl": "https://www.google.com/maps/search/USAHEC+950+Soldiers+Drive+Carlisle+PA",
+          "placeholderEmoji": "⚔️",
+          "description": "Comprehensive museum on the Army War College campus in Carlisle dedicated to the full history of the U.S. Army. Indoor galleries with artifacts and multimedia exhibits plus an outdoor Heritage Trail with full-scale reproductions of military positions from the Revolution through Vietnam. Free admission; located on the drive back toward Hershey.",
+          "pricing": { "amount": "$0 — Free", "type": "free" },
+          "coords": { "lat": 40.1878, "lng": -77.1914 },
+          "hours": "Mon–Sat 10 AM–5 PM (closed Sunday)",
+          "status": "planned"
+        },
+        {
+          "id": "d1-s6",
+          "time": "7:00 PM",
+          "name": "Dinner — Trevi 5",
+          "mapUrl": "https://www.google.com/maps/search/Trevi+5+Restaurant+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Upscale modern Italian in Hershey with Mediterranean ambiance, house-made pastas, and a distinctive five-flavor concept. A relaxed and elegant way to wind down after a full day of history.",
+          "pricing": { "amount": "~$50–75/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2858, "lng": -76.6555 },
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "title": "High Point Mansion & Susquehanna Scenic Drive",
+      "subtitle": "Saturday, Oct 16",
+      "category": "mixed",
+      "drivingTime": "2h 15m",
+      "drivingMiles": "90 mi",
+      "tip": "High Point Mansion is Saturday-only with no walk-ins and tickets that sell out quickly. Set a calendar reminder for September 15, 2027 — the day tickets release at HersheyStory.org — and book that morning.",
+      "stops": [
+        {
+          "id": "d2-s1",
+          "time": "8:30 AM",
+          "name": "Breakfast — Fire & Grain at Hershey Lodge",
+          "mapUrl": "https://www.google.com/maps/search/Fire+and+Grain+Restaurant+Hershey+Lodge+Hershey+PA",
+          "placeholderEmoji": "☕",
+          "description": "On-site restaurant at Hershey Lodge serving an innovative breakfast menu of re-mastered comfort foods with a lively atmosphere. Convenient before the 10 AM mansion tour — no drive required.",
+          "pricing": { "amount": "~$15–22/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2867, "lng": -76.6509 },
+          "status": "planned"
+        },
+        {
+          "id": "d2-s2",
+          "time": "10:00 AM",
+          "name": "High Point Mansion",
+          "mapUrl": "https://www.google.com/maps/search/High+Point+Mansion+100+E+Mansion+Road+Hershey+PA",
+          "placeholderEmoji": "🏛️",
+          "description": "Guided 75-minute tour of Milton and Catherine Hershey's gracious hilltop home, now part of Milton Hershey School's campus. Reveals how the Hersheys lived, entertained, and directed their philanthropy. Tours run Saturdays only — advance booking required at HersheyStory.org.",
+          "pricing": { "amount": "~$20/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2912, "lng": -76.6494 },
+          "hours": "Saturday tours only — book online at HersheyStory.org",
+          "reservation": "Required — tickets release Sep 15, 2027",
+          "accessibility": "Tour involves ~75 min of standing with no seating available. Personal wheelchairs and walkers welcome.",
+          "status": "planned"
+        },
+        {
+          "id": "d2-s3",
+          "time": "12:00 PM",
+          "name": "Lunch — Broad Street Market",
+          "mapUrl": "https://www.google.com/maps/search/Broad+Street+Market+1233+N+3rd+St+Harrisburg+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "One of the oldest continuously operating farmers markets in the US, housed in Harrisburg's historic 1860s market hall. A variety of casual food vendors make it easy to find a good lunch before the afternoon scenic drive.",
+          "pricing": { "amount": "~$12–20/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2686, "lng": -76.8771 },
+          "hours": "Open Saturdays",
+          "status": "planned"
+        },
+        {
+          "id": "d2-s4",
+          "time": "1:30 PM",
+          "name": "Fort Hunter Mansion & Park",
+          "mapUrl": "https://www.google.com/maps/search/Fort+Hunter+Mansion+5300+N+Front+Street+Harrisburg+PA",
+          "placeholderEmoji": "🌊",
+          "description": "Historic site on a bluff directly above the Susquehanna River — once a frontier fort, trading hub, and private estate. Drive up for sweeping views of the river valley framed by peak fall foliage from the surrounding ridgelines.",
+          "pricing": { "amount": "$0", "type": "free" },
+          "coords": { "lat": 40.3415, "lng": -76.9002 },
+          "status": "planned"
+        },
+        {
+          "id": "d2-s5",
+          "time": "2:30 PM",
+          "name": "Harrisburg Riverfront Park",
+          "mapUrl": "https://www.google.com/maps/search/Harrisburg+Riverfront+Park+Front+Street+Harrisburg+PA",
+          "placeholderEmoji": "🗺️",
+          "description": "Mile-long riverside promenade along the Susquehanna in downtown Harrisburg. In mid-October the surrounding hills are gold and crimson reflected in the water, with the green-domed State Capitol visible to the east. Level, paved paths throughout.",
+          "pricing": { "amount": "$0", "type": "free" },
+          "coords": { "lat": 40.2622, "lng": -76.8841 },
+          "status": "planned"
+        },
+        {
+          "id": "d2-s6",
+          "time": "4:00 PM",
+          "name": "Route 147 Susquehanna Scenic Drive",
+          "mapUrl": "https://www.google.com/maps/search/Route+147+Dauphin+County+Pennsylvania+Susquehanna+River",
+          "placeholderEmoji": "🚗",
+          "description": "The premier fall foliage drive in the region — Route 147 follows the east bank of the Susquehanna River northward, with Blue Mountain rising ahead and the valley ablaze in gold and crimson. Drive 20–25 miles north and loop back, pausing at pull-offs for photos.",
+          "pricing": { "amount": "$0", "type": "free" },
+          "coords": { "lat": 40.4180, "lng": -76.8290 },
+          "status": "planned"
+        },
+        {
+          "id": "d2-s7",
+          "time": "7:00 PM",
+          "name": "Dinner — 1933 Restaurant at The Hotel Hershey",
+          "mapUrl": "https://www.google.com/maps/search/1933+Restaurant+Hotel+Hershey+100+Hotel+Road+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Elevated steakhouse and pub fare inside the landmark Hotel Hershey, named for the year it opened. Bold flavors, hand-crafted cocktails, and a setting befitting the grandest building Milton Hershey ever built.",
+          "pricing": { "amount": "~$60–90/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2879, "lng": -76.6531 },
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "title": "Gettysburg Day",
+      "subtitle": "Sunday, Oct 17",
+      "category": "history",
+      "drivingTime": "2h 30m",
+      "drivingMiles": "102 mi",
+      "tip": "Download the NPS Gettysburg app before leaving Hershey — it works offline and narrates each of the 14 auto tour stops as you pull up. The entire battlefield visit is from your car; no hiking or uneven terrain required.",
+      "stops": [
+        {
+          "id": "d3-s1",
+          "time": "7:30 AM",
+          "name": "Breakfast — Stacks at Hershey Lodge",
+          "mapUrl": "https://www.google.com/maps/search/Stacks+Restaurant+Hershey+Lodge+Hershey+PA",
+          "placeholderEmoji": "☕",
+          "description": "On-site breakfast at Hershey Lodge for an early start before the drive to Gettysburg. The Chicken & Waffles is reportedly a nod to Milton Hershey's favorite. Convenient and quick.",
+          "pricing": { "amount": "~$15–22/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2867, "lng": -76.6509 },
+          "status": "planned"
+        },
+        {
+          "id": "d3-s2",
+          "time": "9:30 AM",
+          "name": "Gettysburg Museum & Visitor Center",
+          "mapUrl": "https://www.google.com/maps/search/Gettysburg+National+Military+Park+Visitor+Center+1195+Baltimore+Pike+Gettysburg+PA",
+          "placeholderEmoji": "🏛️",
+          "description": "Start here before touring the battlefield. The museum tells the full story of the three-day battle with artifacts, weapons, photographs, and personal letters. The 1884 Cyclorama — a stunning 360-degree painted panorama of Pickett's Charge — is a masterpiece of 19th-century visual storytelling. Plan 2 hours.",
+          "pricing": { "amount": "~$15/pp est.", "type": "estimated" },
+          "coords": { "lat": 39.8121, "lng": -77.2366 },
+          "hours": "Open daily",
+          "status": "planned"
+        },
+        {
+          "id": "d3-s3",
+          "time": "12:00 PM",
+          "name": "Lunch — Steinwehr Avenue, Gettysburg",
+          "mapUrl": "https://www.google.com/maps/search/Gettysburg+Pub+Restaurant+89+Steinwehr+Ave+Gettysburg+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Gettysburg Pub & Restaurant or neighboring options on Steinwehr Avenue — the main restaurant row a short walk from the visitor center. Good casual American fare before the afternoon battlefield tour.",
+          "pricing": { "amount": "~$18–28/pp est.", "type": "estimated" },
+          "coords": { "lat": 39.8243, "lng": -77.2336 },
+          "status": "planned"
+        },
+        {
+          "id": "d3-s4",
+          "time": "1:00 PM",
+          "name": "Gettysburg Battlefield Auto Tour",
+          "mapUrl": "https://www.google.com/maps/search/Gettysburg+National+Military+Park+Battlefield+Pennsylvania",
+          "placeholderEmoji": "🚗",
+          "description": "Self-guided driving tour of the Gettysburg battlefield — 14 stops across 24 miles narrated by the free NPS Gettysburg app on your phone. You drive your own car through fields and ridgelines where 51,000 soldiers fell over three July days in 1863. All stops are drive-up accessible. Park entry is free.",
+          "pricing": { "amount": "$0 — Free", "type": "free" },
+          "coords": { "lat": 39.8116, "lng": -77.2357 },
+          "hours": "Park open dawn to dusk daily",
+          "status": "planned"
+        },
+        {
+          "id": "d3-s5",
+          "time": "7:00 PM",
+          "name": "Dinner — Revelry",
+          "mapUrl": "https://www.google.com/maps/search/Revelry+Restaurant+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Premium chophouse in Hershey with an extensive menu of prime cuts, classic steakhouse sides, and the largest wine and spirits list in town. Rooftop patio available in mild October weather.",
+          "pricing": { "amount": "~$60–90/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2862, "lng": -76.6555 },
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "title": "Hershey Heritage Day",
+      "subtitle": "Monday, Oct 18",
+      "category": "mixed",
+      "drivingTime": "15 min",
+      "drivingMiles": "5 mi",
+      "tip": "AACA Museum is rarely crowded on Monday afternoons — you'll have the exhibits largely to yourself. The Hershey Story and AACA are a short drive apart on the same side of town, making this a very easy day.",
+      "stops": [
+        {
+          "id": "d4-s1",
+          "time": "8:30 AM",
+          "name": "Breakfast — The Hershey Pantry",
+          "mapUrl": "https://www.google.com/maps/search/The+Hershey+Pantry+845+E+Chocolate+Ave+Hershey+PA",
+          "placeholderEmoji": "☕",
+          "description": "Return to the top-rated local breakfast spot — the menu is extensive enough to try something different. Arrive early to beat the morning crowd.",
+          "pricing": { "amount": "~$15–22/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2841, "lng": -76.6458 },
+          "status": "planned"
+        },
+        {
+          "id": "d4-s2",
+          "time": "10:00 AM",
+          "name": "The Hershey Story Museum",
+          "mapUrl": "https://www.google.com/maps/search/The+Hershey+Story+Museum+63+W+Chocolate+Ave+Hershey+PA",
+          "placeholderEmoji": "🏛️",
+          "description": "Interactive museum on Chocolate Avenue tracing Milton Hershey's life — from apprentice caramel maker to the founder of a chocolate empire and the company town that bears his name. Free with Hershey Lodge Official Resort benefits.",
+          "pricing": { "amount": "$0 (free with Hershey Lodge)", "type": "free" },
+          "coords": { "lat": 40.2858, "lng": -76.6554 },
+          "hours": "Daily 9 AM–5 PM",
+          "status": "planned"
+        },
+        {
+          "id": "d4-s3",
+          "time": "12:00 PM",
+          "name": "Lunch — Hershey Social Restaurant",
+          "mapUrl": "https://www.google.com/maps/search/Hershey+Social+Restaurant+Bar+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Chef-crafted casual dining on Chocolate Avenue — smash burgers, wings with Hershey's signature sauces, and creative entrees in a lively atmosphere. Well-located between the Hershey Story and the AACA Museum.",
+          "pricing": { "amount": "~$18–28/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2858, "lng": -76.6546 },
+          "status": "planned"
+        },
+        {
+          "id": "d4-s4",
+          "time": "1:00 PM",
+          "name": "Walk Chocolate Avenue",
+          "mapUrl": "https://www.google.com/maps/search/Chocolate+Avenue+Hershey+PA",
+          "placeholderEmoji": "🗺️",
+          "description": "The main street Milton Hershey laid out in 1903, where even the streetlights are shaped like Hershey's Kisses. A short, pleasant stroll through the commercial heart of the company town — charming in fall with cool air and the season's foliage in the surrounding hills.",
+          "pricing": { "amount": "$0", "type": "free" },
+          "coords": { "lat": 40.2852, "lng": -76.6540 },
+          "status": "planned"
+        },
+        {
+          "id": "d4-s5",
+          "time": "2:00 PM",
+          "name": "AACA Antique Automobile Club Museum",
+          "mapUrl": "https://www.google.com/maps/search/AACA+Museum+161+Museum+Drive+Hershey+PA",
+          "placeholderEmoji": "🚗",
+          "description": "World-class collection of beautifully restored automobiles, buses, and motorcycles from the 1890s through the 1980s, displayed in detailed period life scenes. Hershey hosts one of the world's largest antique auto shows every October — this museum is the permanent expression of that passion year-round.",
+          "pricing": { "amount": "$16/pp", "type": "confirmed" },
+          "coords": { "lat": 40.2928, "lng": -76.6414 },
+          "hours": "Daily 9 AM–5 PM",
+          "status": "planned"
+        },
+        {
+          "id": "d4-s6",
+          "time": "7:00 PM",
+          "name": "Dinner — Fire & Grain",
+          "mapUrl": "https://www.google.com/maps/search/Fire+and+Grain+Restaurant+Hershey+Lodge+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Hershey Lodge's signature dinner restaurant — a lively atmosphere with a fire wall, gathering tables, and an innovative menu of re-mastered American comfort food. An easy walk from your room.",
+          "pricing": { "amount": "~$45–70/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2867, "lng": -76.6509 },
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "title": "Hershey Gardens & Departure",
+      "subtitle": "Tuesday, Oct 19",
+      "category": "departure",
+      "drivingTime": "20 min",
+      "drivingMiles": "15 mi",
+      "tip": "Hershey Lodge standard check-out is 11 AM — arrange a late check-out or luggage storage when you check in so you can enjoy the full morning at the gardens. MDT is a relaxed airport; 45 minutes before your flight is plenty.",
+      "stops": [
+        {
+          "id": "d5-s1",
+          "time": "8:00 AM",
+          "name": "Breakfast — Stacks at Hershey Lodge",
+          "mapUrl": "https://www.google.com/maps/search/Stacks+Restaurant+Hershey+Lodge+Hershey+PA",
+          "placeholderEmoji": "☕",
+          "description": "Quick on-site breakfast before Hershey Gardens opens at 9 AM. Efficient and convenient — no need to drive anywhere on departure day.",
+          "pricing": { "amount": "~$15–22/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2867, "lng": -76.6509 },
+          "status": "planned"
+        },
+        {
+          "id": "d5-s2",
+          "time": "9:00 AM",
+          "name": "Hershey Gardens",
+          "mapUrl": "https://www.google.com/maps/search/Hershey+Gardens+170+Hotel+Road+Hershey+PA",
+          "placeholderEmoji": "🌺",
+          "description": "23-acre botanical garden at peak fall color — a tapestry of gold, amber, and crimson in mid-October. The indoor Milton & Catherine Hershey Conservatory houses a year-round tropical Butterfly Atrium with 600 live butterflies. Free with Hershey Lodge Official Resort benefits.",
+          "pricing": { "amount": "$0 (free with Hershey Lodge)", "type": "free" },
+          "coords": { "lat": 40.2882, "lng": -76.6527 },
+          "hours": "Daily 9 AM–5 PM through Dec 31",
+          "status": "planned"
+        },
+        {
+          "id": "d5-s3",
+          "time": "11:30 AM",
+          "name": "Lunch — What If Cafe",
+          "mapUrl": "https://www.google.com/maps/search/What+If+Cafe+Chocolate+Avenue+Hershey+PA",
+          "placeholderEmoji": "🍽️",
+          "description": "Casual dining on Chocolate Avenue — a relaxed send-off lunch with classic American fare and a cozy courtyard. Last look at the heart of Hershey before heading to the airport.",
+          "pricing": { "amount": "~$15–25/pp est.", "type": "estimated" },
+          "coords": { "lat": 40.2858, "lng": -76.6540 },
+          "status": "planned"
+        },
+        {
+          "id": "d5-s4",
+          "time": "12:30 PM",
+          "name": "Check out & drive to MDT",
+          "mapUrl": "https://www.google.com/maps/search/Harrisburg+International+Airport+MDT+Middletown+PA",
+          "placeholderEmoji": "🏠",
+          "description": "Check out of Hershey Lodge and make the easy 15-minute drive east on PA-283 to Harrisburg International Airport. Return rental car and check in for afternoon flight back to DFW.",
+          "pricing": { "amount": "$0", "type": "free" },
+          "coords": { "lat": 40.1935, "lng": -76.7634 },
+          "status": "planned"
+        },
+        {
+          "id": "d5-s5",
+          "time": "~2:00–3:00 PM",
+          "name": "Fly MDT → DFW",
+          "mapUrl": "https://www.google.com/maps/search/Dallas+Fort+Worth+International+Airport",
+          "placeholderEmoji": "✈️",
+          "description": "Afternoon flight from Harrisburg to Dallas/Fort Worth via Philadelphia or Charlotte connection. MDT is a small, relaxed airport — 45 minutes before your flight is sufficient.",
+          "pricing": { "amount": "Included in round-trip", "type": "free" },
+          "coords": { "lat": 32.8998, "lng": -97.0403 },
+          "status": "planned"
+        }
+      ]
+    }
+  ],
+  "costEstimate": {
+    "categories": [
+      {
+        "emoji": "✈️",
+        "name": "Flights",
+        "items": [
+          {
+            "item": "Round-trip DFW ↔ MDT (2 people)",
+            "detail": "American Airlines via PHL or CLT connection",
+            "cost": { "budget": 560, "mid": 820, "high": 1100 },
+            "priceType": "estimated",
+            "note": "Book 6–8 weeks out for best fares; MDT is a smaller airport with limited direct options from DFW"
+          }
+        ]
+      },
+      {
+        "emoji": "🚗",
+        "name": "Car Rental",
+        "items": [
+          {
+            "item": "Rental car (6 days — pickup Thu, drop Tue)",
+            "detail": "Mid-size or full-size; picked up at MDT",
+            "cost": { "budget": 255, "mid": 375, "high": 530 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Gas (est. ~300 mi total driving)",
+            "detail": "Day trips to Harrisburg, Carlisle, Gettysburg",
+            "cost": { "budget": 20, "mid": 25, "high": 30 },
+            "priceType": "estimated"
+          }
+        ]
+      },
+      {
+        "emoji": "🏨",
+        "name": "Lodging",
+        "items": [
+          {
+            "item": "Hershey Lodge — 5 nights (Oct 14–19)",
+            "detail": "Official Hersheypark Resort; includes free Hershey Gardens + Hershey Story",
+            "cost": { "budget": 1000, "mid": 1225, "high": 1550 },
+            "priceType": "estimated",
+            "note": "October fall rates are significantly lower than peak summer; book early for best availability"
+          }
+        ]
+      },
+      {
+        "emoji": "🎟️",
+        "name": "Attractions",
+        "items": [
+          {
+            "item": "AACA Antique Automobile Museum (2 pp)",
+            "detail": "$16/pp — 161 Museum Dr, Hershey",
+            "cost": { "budget": 32, "mid": 32, "high": 32 },
+            "priceType": "confirmed"
+          },
+          {
+            "item": "National Civil War Museum (2 pp)",
+            "detail": "$17/pp senior rate",
+            "cost": { "budget": 34, "mid": 34, "high": 36 },
+            "priceType": "confirmed"
+          },
+          {
+            "item": "Harris-Cameron Mansion tour (2 pp)",
+            "detail": "$10/pp — Tue–Fri 1/2/3 PM slots",
+            "cost": { "budget": 20, "mid": 20, "high": 20 },
+            "priceType": "confirmed"
+          },
+          {
+            "item": "High Point Mansion tour (2 pp)",
+            "detail": "Saturday only — verify exact price at HersheyStory.org",
+            "cost": { "budget": 35, "mid": 40, "high": 45 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Gettysburg Museum & Cyclorama (2 pp)",
+            "detail": "Visitor Center admission",
+            "cost": { "budget": 28, "mid": 32, "high": 37 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Hershey Story Museum + Hershey Gardens (2 pp)",
+            "detail": "Free with Hershey Lodge Official Resort benefits — saves ~$72",
+            "cost": { "budget": 0, "mid": 0, "high": 0 },
+            "priceType": "confirmed"
+          },
+          {
+            "item": "USAHEC + Gettysburg Battlefield + Riverfront Parks",
+            "detail": "All free admission",
+            "cost": { "budget": 0, "mid": 0, "high": 0 },
+            "priceType": "confirmed"
+          },
+          {
+            "item": "Parking & incidental entry fees",
+            "detail": "Downtown Harrisburg garage parking, etc.",
+            "cost": { "budget": 11, "mid": 27, "high": 50 },
+            "priceType": "estimated"
+          }
+        ]
+      },
+      {
+        "emoji": "🍽️",
+        "name": "Dining",
+        "items": [
+          {
+            "item": "Breakfasts (5 × 2 people)",
+            "detail": "The Hershey Pantry, Stacks, Fire & Grain at Lodge",
+            "cost": { "budget": 150, "mid": 180, "high": 220 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Lunches (5 × 2 people)",
+            "detail": "Mix of casual cafés and market fare across Hershey, Harrisburg, Gettysburg",
+            "cost": { "budget": 220, "mid": 280, "high": 350 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Dinners (5 × 2 people)",
+            "detail": "The Mill, Trevi 5, 1933 Restaurant, Revelry, Fire & Grain",
+            "cost": { "budget": 480, "mid": 660, "high": 830 },
+            "priceType": "estimated"
+          }
+        ]
+      },
+      {
+        "emoji": "💳",
+        "name": "Miscellaneous",
+        "items": [
+          {
+            "item": "Gratuities (5 dining days)",
+            "detail": "Estimated 18–22% on dining",
+            "cost": { "budget": 60, "mid": 90, "high": 120 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Souvenirs & incidentals",
+            "detail": "Chocolate Avenue shops, museum gift shops",
+            "cost": { "budget": 30, "mid": 45, "high": 55 },
+            "priceType": "estimated"
+          },
+          {
+            "item": "Parking (5 days)",
+            "detail": "Hershey Lodge parking + Harrisburg street/garage",
+            "cost": { "budget": 30, "mid": 40, "high": 50 },
+            "priceType": "estimated"
+          }
+        ]
+      }
+    ],
+    "totals": { "budget": 2965, "mid": 3925, "high": 5055 },
+    "tips": [
+      "Book flights 6–8 weeks out for best DFW ↔ MDT fares — American Airlines connects through PHL.",
+      "Harris-Cameron Mansion tours sell out — reserve your Friday 1 PM slot at dauphincountyhistory.org as soon as your dates are confirmed.",
+      "High Point Mansion tickets release September 15, 2027 at HersheyStory.org — set a calendar reminder and book that morning.",
+      "Hershey Lodge Official Resort benefits include free Hershey Gardens and The Hershey Story Museum — a savings of ~$72 for two vs. paying at the door.",
+      "USAHEC, Gettysburg Battlefield, and Harrisburg Riverfront Park are all free — strong history experiences at no cost.",
+      "Download the NPS Gettysburg app before Day 4 — it works offline and narrates each stop of the 14-stop battlefield auto tour."
+    ]
+  }
+}

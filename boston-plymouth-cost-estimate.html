@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boston, Plymouth & Newport — May 2027 Cost Estimate</title>
+<style>
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  color: #1a1a1a;
+}
+.page-title { font-size: 22px; font-weight: 800; margin: 0 0 0.15rem; }
+.page-subtitle { font-size: 13px; color: #666; margin: 0 0 1.25rem; }
+
+/* Total banner */
+.total-banner { background: #E6F1FB; border-radius: 10px; padding: 16px 20px; margin-bottom: 1.1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+.total-left .total-label { font-size: 12px; color: #0C447C; margin: 0; }
+.total-left .total-amount { font-size: 26px; font-weight: 800; color: #0C447C; margin: 4px 0 0; }
+.total-right { text-align: right; }
+.total-right p { font-size: 11px; color: #0C447C; margin: 2px 0; }
+
+/* Savings banner */
+.savings-banner { background: #EAF3DE; border-radius: 10px; padding: 12px 16px; margin-bottom: 1.1rem; }
+.savings-banner p { font-size: 12px; color: #27500A; margin: 0; line-height: 1.55; }
+
+/* Cards and tables */
+.card { border: 1px solid #e5e5e5; border-radius: 12px; overflow: hidden; margin-bottom: 1.1rem; }
+.card-header { background: #fafafa; padding: 0.65rem 1rem; border-bottom: 1px solid #e5e5e5; display: flex; justify-content: space-between; align-items: center; }
+.card-header .section-title { font-size: 14px; font-weight: 700; margin: 0; }
+.card-header .section-range { font-size: 12px; font-weight: 700; color: #555; margin: 0; }
+table { width: 100%; border-collapse: collapse; }
+td { padding: 7px 14px; font-size: 12px; border-bottom: 1px solid #f2f2f2; vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+.item-name { font-weight: 600; }
+.item-detail { color: #666; }
+.item-cost { text-align: right; white-space: nowrap; font-weight: 600; }
+.note-row td { background: #fafafa; color: #888; font-size: 11px; font-style: italic; }
+.free-cost { color: #27500A; }
+.highlight-row td { background: #f0fdf0; }
+.pill { display: inline-block; font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 20px; margin-left: 4px; vertical-align: middle; }
+.pill-confirmed { background: #EAF3DE; color: #27500A; }
+.pill-est { background: #FAEEDA; color: #633806; }
+
+/* Summary grid */
+.summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 1.1rem; }
+.summary-card { border: 1px solid #e5e5e5; border-radius: 10px; padding: 14px; text-align: center; }
+.summary-card .summary-label { font-size: 11px; color: #666; margin: 0 0 4px; }
+.summary-card .summary-amount { font-size: 20px; font-weight: 800; margin: 0; }
+.summary-budget .summary-amount { color: #27500A; }
+.summary-mid .summary-amount { color: #0C447C; }
+.summary-high .summary-amount { color: #633806; }
+
+/* Tips box */
+.tips-box { background: #EEEDFE; border-radius: 10px; padding: 14px 18px; margin-bottom: 1rem; }
+.tips-box .tips-title { font-size: 13px; font-weight: 700; color: #3C3489; margin: 0 0 8px; }
+.tips-box ul { margin: 0; padding: 0 0 0 18px; }
+.tips-box li { font-size: 11px; color: #3C3489; line-height: 1.6; margin-bottom: 4px; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #1a1a1a; color: #e5e5e5; }
+  .card { border-color: #333; }
+  .card-header { background: #222; border-color: #333; }
+  td { border-color: #2a2a2a; }
+  .note-row td { background: #222; color: #666; }
+  .highlight-row td { background: #1a2e1a; }
+  .item-detail { color: #999; }
+  .page-subtitle { color: #888; }
+  .total-banner { background: #1e2d3d; }
+  .total-left .total-label, .total-left .total-amount, .total-right p { color: #7db8e8; }
+  .savings-banner { background: #1e2d1e; }
+  .savings-banner p { color: #8ecf6e; }
+  .tips-box { background: #24223d; }
+  .tips-box .tips-title, .tips-box li { color: #b0adee; }
+  .summary-card { border-color: #333; }
+  .summary-card .summary-label { color: #888; }
+}
+
+@media (max-width: 520px) {
+  .summary-grid { grid-template-columns: 1fr; }
+  .total-banner { flex-direction: column; align-items: flex-start; }
+  .total-right { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<p class="page-title">Boston, Plymouth & Newport — Cost Estimate</p>
+<p class="page-subtitle">May 24–29, 2027 · 2 travelers · 5 nights</p>
+
+<!-- Total banner -->
+<div class="total-banner">
+  <div class="total-left">
+    <p class="total-label">Estimated total for 2 people</p>
+    <p class="total-amount">$2,060 – $2,960</p>
+  </div>
+  <div class="total-right">
+    <p><strong>Budget:</strong> ~$2,060</p>
+    <p><strong>Comfortable:</strong> ~$2,510</p>
+    <p><strong>Higher end:</strong> ~$2,960</p>
+  </div>
+</div>
+
+<!-- Savings banner -->
+<div class="savings-banner">
+  <p>💰 <strong>Club Wyndham savings: $696–$889.</strong> Three nights at Club Wyndham Long Wharf on timeshare points replaces Newport hotel rates of $232–296/night. No rental car in Boston (Days 1–2) saves an additional ~$110–140 plus parking fees.</p>
+</div>
+
+<!-- Summary grid -->
+<div class="summary-grid">
+  <div class="summary-card summary-budget">
+    <p class="summary-label">Budget</p>
+    <p class="summary-amount">$2,058</p>
+  </div>
+  <div class="summary-card summary-mid">
+    <p class="summary-label">Comfortable</p>
+    <p class="summary-amount">$2,511</p>
+  </div>
+  <div class="summary-card summary-high">
+    <p class="summary-label">Higher End</p>
+    <p class="summary-amount">$2,963</p>
+  </div>
+</div>
+
+<!-- ===== FLIGHTS ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">✈️ Flights</p>
+    <p class="section-range">$400 – $700</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Round-trip flights (2 people)</td>
+      <td class="item-detail">DFW ↔ BOS or comparable home airport</td>
+      <td class="item-cost">$400–$700 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">Memorial Day weekend travel — book early for best fares. Nonstop options available from most major hubs. Set a fare alert on Google Flights.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== GROUND TRANSPORTATION ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🚗 Ground Transportation</p>
+    <p class="section-range">$310 – $405</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Rental car (4 days: Mon–Thu)</td>
+      <td class="item-detail">Enterprise downtown Boston pickup, Logan airport return</td>
+      <td class="item-cost">$220–$280 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Gas (~300 miles)</td>
+      <td class="item-detail">Boston → Plymouth → Newport → Plymouth → BOS loop</td>
+      <td class="item-cost">$40–$55 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Taxi/Lyft — airport ↔ hotel</td>
+      <td class="item-detail">Logan to Wyndham Beacon Hill and return trips (Days 1–2)</td>
+      <td class="item-cost">$50–$70 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">No rental car in Boston saves ~$110–140 + $35–50/night parking. Trolley, walking, and taxi cover everything Days 1–2.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== LODGING ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🏨 Lodging</p>
+    <p class="section-range">$378 – $498</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Wyndham Boston Beacon Hill (2 nights)</td>
+      <td class="item-detail">Standard Wyndham hotel — cash rate, not Club Wyndham</td>
+      <td class="item-cost">$378–$498 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">Memorial Day weekend rates may be higher than typical. Book early for best availability. Located at 200 Stuart St, Back Bay.</td>
+    </tr>
+    <tr class="highlight-row">
+      <td class="item-name">Club Wyndham Long Wharf (3 nights)</td>
+      <td class="item-detail">Timeshare points — 3 consecutive nights (minimum required)</td>
+      <td class="item-cost free-cost">$0 <span class="pill pill-confirmed">points</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">Saves $696–$889 vs. comparable Newport hotels at $232–296/night. Kitchen-equipped suites also help reduce meal costs. Book via 800-251-8736 or online.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== ATTRACTIONS ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🎭 Attractions & Activities</p>
+    <p class="section-range">$410</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Old Town Trolley + Tea Party combo (×2)</td>
+      <td class="item-detail">Trolley hop-on/hop-off + Tea Party Museum + harbor cruise</td>
+      <td class="item-cost">$154 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Plimoth Patuxet + Mayflower II combo (×2)</td>
+      <td class="item-detail">plimoth.org combo ticket</td>
+      <td class="item-cost">$84 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Pilgrim Hall Museum (×2)</td>
+      <td class="item-detail">America's oldest museum — $15/pp</td>
+      <td class="item-cost">$30 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Larz Anderson Auto Museum (×2)</td>
+      <td class="item-detail">Brookline — $12/pp</td>
+      <td class="item-cost">$24 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">The Breakers + Marble House combo (×2)</td>
+      <td class="item-detail">newportmansions.org combo</td>
+      <td class="item-cost">$58 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Newport Car Museum (×2)</td>
+      <td class="item-detail">Portsmouth, RI — $20/pp</td>
+      <td class="item-cost">$40 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Mayflower Society House (×2)</td>
+      <td class="item-detail">Plymouth — $10/pp</td>
+      <td class="item-cost">$20 <span class="pill pill-confirmed">confirmed</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">USS Constitution & Museum</td>
+      <td class="item-detail">Free admission — active-duty Navy tours</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+    <tr>
+      <td class="item-name">Beavertail / Cliff Walk / Burial Hill</td>
+      <td class="item-detail">All free attractions</td>
+      <td class="item-cost free-cost">$0</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== DINING ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">🍽️ Dining</p>
+    <p class="section-range">$510 – $790</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Breakfasts (6 mornings × 2)</td>
+      <td class="item-detail">Mix of hotel continental and local cafes</td>
+      <td class="item-cost">$60–$90 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Lunches (6 days × 2)</td>
+      <td class="item-detail">Casual waterfront and village dining</td>
+      <td class="item-cost">$150–$250 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Dinners (5 evenings × 2)</td>
+      <td class="item-detail">Italian, American, eclectic — non-seafood-forward options noted</td>
+      <td class="item-cost">$300–$450 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr class="note-row">
+      <td colspan="3">Club Wyndham kitchen suites let you prep some breakfasts and snacks in-room, reducing dining costs. Dining picks avoid lobster/clam chowder per preferences.</td>
+    </tr>
+  </table>
+</div>
+
+<!-- ===== MISCELLANEOUS ===== -->
+<div class="card">
+  <div class="card-header">
+    <p class="section-title">💳 Miscellaneous</p>
+    <p class="section-range">$50 – $160</p>
+  </div>
+  <table>
+    <tr>
+      <td class="item-name">Tips, parking, snacks</td>
+      <td class="item-detail">Parking mostly free at attractions; some metered downtown</td>
+      <td class="item-cost">$50–$100 <span class="pill pill-est">est</span></td>
+    </tr>
+    <tr>
+      <td class="item-name">Souvenirs / gifts</td>
+      <td class="item-detail">Mayflower memorabilia, Newport shops</td>
+      <td class="item-cost">$0–$60 <span class="pill pill-est">est</span></td>
+    </tr>
+  </table>
+</div>
+
+<!-- Tips -->
+<div class="tips-box">
+  <p class="tips-title">💡 Money-Saving Tips</p>
+  <ul>
+    <li><strong>No rental car in Boston (Days 1–2)</strong> — trolley, walking, and taxi cover everything. Saves ~$110–140 plus $35–50/night hotel parking.</li>
+    <li><strong>Club Wyndham 3-night stay</strong> saves $696–889 vs. comparable Newport hotels. Kitchen-equipped suites also save on breakfast costs.</li>
+    <li><strong>Buy combo tickets online</strong> — Old Town Trolley + Tea Party (~15% savings) and Newport Mansions combo (~20% savings vs. individual).</li>
+    <li><strong>Memorial Day weekend</strong> — Boston hotels are pricier. Book the Wyndham Beacon Hill early for best rates.</li>
+    <li><strong>Several free attractions</strong> keep activity costs low: USS Constitution, Beavertail Lighthouse, Cliff Walk, Burial Hill, Harborwalk.</li>
+    <li><strong>Book the farewell dinner</strong> at Castle Hill Inn or The Chanler at least 2 weeks ahead — these fill up in late May.</li>
+  </ul>
+</div>
+
+</body>
+</html>
