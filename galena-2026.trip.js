@@ -2,26 +2,26 @@ window.__TRIPS__ = window.__TRIPS__ || [];
 window.__TRIPS__.push({
   "name": "Northwest Illinois Road Trip - Groundhog Day Filming Locations",
   "dates": {
-    "start": "2026-10-15",
-    "end": "2026-10-20"
+    "start": "2027-06-03",
+    "end": "2027-06-09"
   },
   "travelers": 2,
   "airports": {
     "flyIn": "ORD",
     "flyOut": "ORD"
   },
-  "alignmentNote": "Best travel dates: Arrive Thursday. Day 1 = Friday so Galena museums are open on weekdays. Anderson Japanese Gardens is open Wed–Sun (closed Mon–Tue). Illinois Railway Museum operates weekends through October.",
+  "alignmentNote": "Best travel dates: Arrive Thursday, June 3, 2027 — the first Thursday after Memorial Day. Day 1 = Friday so the U.S. Grant Home (open Wed–Sun) is open. In summer (Memorial Day–Labor Day) the Illinois Railway Museum also runs weekdays, so the Monday museum day works — and the weekday senior rate is cheaper. Anderson Japanese Gardens is open daily in season (closed only on major holidays; June 6 is fine). Two nights at the Cherry Tree Inn give a full extra day at the Groundhog Day locations.",
   "days": [
     {
-      "dayNumber": 0,
+      "dayNumber": 1,
       "title": "Arrival & Galena First Look",
-      "subtitle": "Thursday, Oct 15",
+      "subtitle": "Thursday, Jun 3",
       "category": "travel",
       "drivingTime": "2h 45m",
       "drivingMiles": "165 mi",
       "stops": [
         {
-          "id": "d0-s1",
+          "id": "d1-s1",
           "time": "11:30 AM",
           "name": "Arrive at O'Hare (ORD)",
           "mapUrl": "https://maps.google.com/maps/search/Chicago+O'Hare+International+Airport",
@@ -38,7 +38,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d0-s2",
+          "id": "d1-s2",
           "time": "12:00 PM",
           "name": "Pick up rental car",
           "mapUrl": "https://maps.google.com/maps/search/O'Hare+Rental+Car+Center",
@@ -55,7 +55,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d0-s3",
+          "id": "d1-s3",
           "time": "12:30 PM",
           "name": "Drive to Galena",
           "mapUrl": "https://maps.google.com/maps/dir/O'Hare+Airport/Galena+IL",
@@ -68,7 +68,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d0-s4",
+          "id": "d1-s4",
           "time": "3:15 PM",
           "name": "Check in at Club Wyndham Galena",
           "mapUrl": "https://maps.google.com/maps/search/Club+Wyndham+Galena+IL",
@@ -89,7 +89,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d0-s5",
+          "id": "d1-s5",
           "time": "5:00 PM",
           "name": "Stroll Galena Main Street",
           "mapUrl": "https://maps.google.com/maps/search/Galena+Main+Street+IL",
@@ -106,7 +106,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d0-s6",
+          "id": "d1-s6",
           "time": "6:30 PM",
           "name": "Dinner at Fried Green Tomatoes",
           "mapUrl": "https://maps.google.com/maps/search/Fried+Green+Tomatoes+Galena+IL",
@@ -127,15 +127,15 @@ window.__TRIPS__.push({
       "tip": "💡 Galena Main Street shops close around 5–6 PM. Arrive by 5 to browse before dinner. Fried Green Tomatoes can be hard to get into — book ahead."
     },
     {
-      "dayNumber": 1,
+      "dayNumber": 2,
       "title": "Galena History & Grant Trail",
-      "subtitle": "Friday, Oct 16",
+      "subtitle": "Friday, Jun 4",
       "category": "history",
       "drivingTime": "20 min total",
       "drivingMiles": "8 mi",
       "stops": [
         {
-          "id": "d1-s1",
+          "id": "d2-s1",
           "time": "9:00 AM",
           "name": "Breakfast at resort or Galena café",
           "mapUrl": "https://maps.google.com/maps/search/breakfast+Galena+IL",
@@ -148,7 +148,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d1-s2",
+          "id": "d2-s2",
           "time": "10:00 AM",
           "name": "U.S. Grant Home State Historic Site",
           "mapUrl": "https://maps.google.com/maps/search/U.S.+Grant+Home+Galena+IL",
@@ -167,7 +167,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d1-s3",
+          "id": "d2-s3",
           "time": "11:30 AM",
           "name": "Galena & U.S. Grant Museum",
           "mapUrl": "https://maps.google.com/maps/search/Galena+U.S.+Grant+Museum",
@@ -185,7 +185,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d1-s4",
+          "id": "d2-s4",
           "time": "12:30 PM",
           "name": "Lunch on Main Street",
           "mapUrl": "https://maps.google.com/maps/search/lunch+restaurants+Main+Street+Galena+IL",
@@ -198,7 +198,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d1-s5",
+          "id": "d2-s5",
           "time": "2:00 PM",
           "name": "Belvedere Mansion",
           "mapUrl": "https://maps.google.com/maps/search/Belvedere+Mansion+Galena+IL",
@@ -216,7 +216,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d1-s6",
+          "id": "d2-s6",
           "time": "3:30 PM",
           "name": "Thunder Bay Falls",
           "mapUrl": "https://maps.google.com/maps/search/Thunder+Bay+Falls+Galena+IL",
@@ -234,7 +234,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d1-s7",
+          "id": "d2-s7",
           "time": "6:00 PM",
           "name": "Dinner at Log Cabin Steakhouse",
           "mapUrl": "https://maps.google.com/maps/search/Log+Cabin+Steakhouse+Galena+IL",
@@ -255,15 +255,15 @@ window.__TRIPS__.push({
       "tip": "💡 The Grant Home and Grant Museum are walking distance from each other along Bouthillier St. Park once near the Grant Home and walk both."
     },
     {
-      "dayNumber": 2,
+      "dayNumber": 3,
       "title": "Chestnut Mountain Scenic Day",
-      "subtitle": "Saturday, Oct 17",
+      "subtitle": "Saturday, Jun 5",
       "category": "nature",
       "drivingTime": "30 min total",
       "drivingMiles": "16 mi",
       "stops": [
         {
-          "id": "d2-s1",
+          "id": "d3-s1",
           "time": "9:00 AM",
           "name": "Breakfast at resort",
           "mapUrl": "https://maps.google.com/maps/search/Club+Wyndham+Galena+IL",
@@ -276,16 +276,16 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d2-s2",
+          "id": "d3-s2",
           "time": "10:30 AM",
           "name": "Chestnut Mountain Resort — Chairlift Ride",
           "mapUrl": "https://maps.google.com/maps/search/Chestnut+Mountain+Resort+Galena+IL",
           "placeholderEmoji": "🏔️",
-          "description": "Scenic chairlift to the summit overlooking the Mississippi River valley. Spectacular fall foliage in mid-October. Ride up and ride back — no hiking involved.",
-          "hours": "Seasonal, typically weekends in Oct",
+          "description": "Scenic chairlift to the summit overlooking the Mississippi River valley. Lush green river-valley views in early summer. Ride up and ride back — no hiking involved. (Confirm the summer scenic-ride is running — the resort leans to alpine slide/zip line in summer.)",
+          "hours": "Seasonal — open daily in summer; confirm chairlift hours",
           "accessibility": "Chairlift loading requires stepping onto moving chair",
           "pricing": {
-            "amount": "$15/pp",
+            "amount": "~$15–$20/pp",
             "type": "estimated"
           },
           "coords": {
@@ -295,7 +295,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d2-s3",
+          "id": "d3-s3",
           "time": "12:00 PM",
           "name": "Sunset Grille at Chestnut Mountain",
           "mapUrl": "https://maps.google.com/maps/search/Sunset+Grille+Chestnut+Mountain",
@@ -312,13 +312,13 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d2-s4",
+          "id": "d3-s4",
           "time": "2:00 PM",
           "name": "Mississippi River Cruise (Spirit of Dubuque or similar)",
           "mapUrl": "https://maps.google.com/maps/search/Mississippi+River+cruise+Galena+IL",
           "placeholderEmoji": "🚢",
-          "description": "Afternoon sightseeing cruise on the Mississippi. Fall colors along the river bluffs. Check schedule — some operators run limited October cruises.",
-          "hours": "Check seasonal schedule",
+          "description": "Afternoon sightseeing cruise on the Mississippi. River-bluff scenery and an easy, breezy ride. Check the summer schedule and book ahead.",
+          "hours": "Daily summer cruises — confirm departure times",
           "reservation": "Required — book in advance",
           "pricing": {
             "amount": "$25–$40/pp",
@@ -331,12 +331,12 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d2-s5",
+          "id": "d3-s5",
           "time": "5:00 PM",
           "name": "Scenic drive back via Blackjack Road",
           "mapUrl": "https://maps.google.com/maps/search/Blackjack+Road+Galena+IL",
           "placeholderEmoji": "🗺️",
-          "description": "Winding road through Galena's rolling countryside. Peak fall color drive — S-curves through wooded hills.",
+          "description": "Winding road through Galena's rolling countryside. Lush early-summer drive — S-curves through wooded hills.",
           "pricing": {
             "amount": "$0",
             "type": "free"
@@ -344,7 +344,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d2-s6",
+          "id": "d3-s6",
           "time": "6:30 PM",
           "name": "Dinner in Galena",
           "mapUrl": "https://maps.google.com/maps/search/dinner+restaurants+Galena+IL",
@@ -357,18 +357,18 @@ window.__TRIPS__.push({
           "status": "planned"
         }
       ],
-      "tip": "💡 Confirm the chairlift and river cruise schedules before this day — both run limited October hours. Book the river cruise in advance."
+      "tip": "💡 Confirm chairlift and river-cruise times before this day. Summer cruises sell out — reserve in advance."
     },
     {
-      "dayNumber": 3,
+      "dayNumber": 4,
       "title": "Rockford — Japanese Gardens & History",
-      "subtitle": "Sunday, Oct 18",
+      "subtitle": "Sunday, Jun 6",
       "category": "mixed",
       "drivingTime": "2h 30m round trip",
       "drivingMiles": "130 mi",
       "stops": [
         {
-          "id": "d3-s1",
+          "id": "d4-s1",
           "time": "8:30 AM",
           "name": "Drive to Rockford",
           "mapUrl": "https://maps.google.com/maps/dir/Galena+IL/Rockford+IL",
@@ -381,17 +381,17 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d3-s2",
+          "id": "d4-s2",
           "time": "10:00 AM",
           "name": "Anderson Japanese Gardens",
           "mapUrl": "https://maps.google.com/maps/search/Anderson+Japanese+Gardens+Rockford+IL",
           "placeholderEmoji": "🌿",
-          "description": "Rated among the top Japanese gardens in North America. 12 acres of ponds, waterfalls, tea house, and winding paths. Mostly paved paths — very accessible. Fall is one of the best times to visit.",
-          "hours": "Wed–Sun 9 AM – 4 PM (Oct)",
+          "description": "Rated among the top Japanese gardens in North America. 12 acres of ponds, waterfalls, tea house, and winding paths. Mostly paved paths — very accessible. Early summer brings lush greenery and blooming plantings.",
+          "hours": "Daily 9 AM – 6 PM (Mon–Fri), 9 AM – 5 PM (Sat–Sun); closed major holidays",
           "accessibility": "Mostly paved, gentle grades, wheelchair accessible",
           "pricing": {
-            "amount": "$12/pp",
-            "type": "confirmed"
+            "amount": "$14/pp (wknd senior)",
+            "type": "estimated"
           },
           "coords": {
             "lat": 42.2656,
@@ -400,7 +400,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d3-s3",
+          "id": "d4-s3",
           "time": "12:00 PM",
           "name": "Lunch in Rockford",
           "mapUrl": "https://maps.google.com/maps/search/lunch+Rockford+IL",
@@ -413,7 +413,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d3-s4",
+          "id": "d4-s4",
           "time": "1:30 PM",
           "name": "Historic Auto Attractions (Roscoe)",
           "mapUrl": "https://maps.google.com/maps/search/Historic+Auto+Attractions+Roscoe+IL",
@@ -421,8 +421,8 @@ window.__TRIPS__.push({
           "description": "Massive collection of movie/TV cars, presidential limos, and pop culture vehicles. JFK's limo, Batmobiles, Ghostbusters Ecto-1, and more. Wayne Lensing's personal collection — truly unique.",
           "hours": "Wed–Sun 10 AM – 5 PM",
           "pricing": {
-            "amount": "$12/pp",
-            "type": "confirmed"
+            "amount": "$28/pp",
+            "type": "estimated"
           },
           "coords": {
             "lat": 42.4131,
@@ -431,7 +431,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d3-s5",
+          "id": "d4-s5",
           "time": "3:30 PM",
           "name": "Drive back to Galena",
           "mapUrl": "https://maps.google.com/maps/dir/Roscoe+IL/Galena+IL",
@@ -444,9 +444,9 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d3-s6",
+          "id": "d4-s6",
           "time": "6:00 PM",
-          "name": "Dinner at The Public House of Woodstock",
+          "name": "Dinner in Galena",
           "mapUrl": "https://maps.google.com/maps/search/restaurants+downtown+Galena+IL",
           "placeholderEmoji": "🍽️",
           "description": "Relaxed evening at a Galena Main Street restaurant. Take it easy after the driving day.",
@@ -457,18 +457,18 @@ window.__TRIPS__.push({
           "status": "planned"
         }
       ],
-      "tip": "💡 Anderson Japanese Gardens closes at 4 PM in October — arrive by 10 AM to enjoy it fully. Historic Auto Attractions is worth 1.5–2 hours for car enthusiasts."
+      "tip": "💡 Anderson Japanese Gardens stays open to 5 PM on Sunday — no rush. Historic Auto Attractions is worth 1.5–2 hours for car enthusiasts."
     },
     {
-      "dayNumber": 4,
+      "dayNumber": 5,
       "title": "Woodstock & Movie Magic",
-      "subtitle": "Monday, Oct 19",
+      "subtitle": "Monday, Jun 7",
       "category": "driving",
       "drivingTime": "2h 30m",
       "drivingMiles": "135 mi",
       "stops": [
         {
-          "id": "d4-s1",
+          "id": "d5-s1",
           "time": "9:00 AM",
           "name": "Check out of Club Wyndham Galena",
           "mapUrl": "https://maps.google.com/maps/search/Club+Wyndham+Galena+IL",
@@ -481,7 +481,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d4-s2",
+          "id": "d5-s2",
           "time": "9:30 AM",
           "name": "Drive to Woodstock",
           "mapUrl": "https://maps.google.com/maps/dir/Galena+IL/Woodstock+IL",
@@ -494,7 +494,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d4-s3",
+          "id": "d5-s3",
           "time": "12:00 PM",
           "name": "Woodstock Square — Groundhog Day Filming Locations",
           "mapUrl": "https://maps.google.com/maps/search/Woodstock+Square+Woodstock+IL",
@@ -512,7 +512,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d4-s4",
+          "id": "d5-s4",
           "time": "1:00 PM",
           "name": "Lunch at The Public House of Woodstock",
           "mapUrl": "https://maps.google.com/maps/search/The+Public+House+Woodstock+IL",
@@ -529,17 +529,17 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d4-s5",
+          "id": "d5-s5",
           "time": "2:30 PM",
           "name": "Illinois Railway Museum (Union)",
           "mapUrl": "https://maps.google.com/maps/search/Illinois+Railway+Museum+Union+IL",
           "placeholderEmoji": "🚂",
-          "description": "Largest railway museum in the US. Ride vintage trains, see steam and diesel locomotives, interurban cars, and CTA equipment. Mostly outdoor exhibits — weather dependent.",
-          "hours": "Weekends in Oct, 10 AM – 5 PM",
+          "description": "Largest railway museum in the US. Ride vintage trains, see steam and diesel locomotives, interurban cars, and CTA equipment. Mostly outdoor exhibits — weather dependent. Weekday summer visits are quieter and cheaper.",
+          "hours": "Open daily in summer; electric trains 11 AM – 3 PM on weekdays",
           "accessibility": "Gravel paths between exhibits; train rides are step-up boarding",
           "pricing": {
-            "amount": "$15/pp",
-            "type": "confirmed"
+            "amount": "$12/pp (weekday senior)",
+            "type": "estimated"
           },
           "coords": {
             "lat": 42.2336,
@@ -548,7 +548,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d4-s6",
+          "id": "d5-s6",
           "time": "4:30 PM",
           "name": "Volo Auto Museum",
           "mapUrl": "https://maps.google.com/maps/search/Volo+Auto+Museum+Volo+IL",
@@ -556,8 +556,8 @@ window.__TRIPS__.push({
           "description": "300+ vintage and famous movie/TV cars for sale and display. Batmobile, General Lee, Scooby-Doo van, and classic muscle cars. Four large buildings — pace yourself.",
           "hours": "Daily 10 AM – 5 PM",
           "pricing": {
-            "amount": "$15/pp",
-            "type": "confirmed"
+            "amount": "$22/pp (senior)",
+            "type": "estimated"
           },
           "coords": {
             "lat": 42.3297,
@@ -566,48 +566,227 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d4-s7",
-          "time": "6:30 PM",
-          "name": "Check in & dinner near Woodstock",
-          "mapUrl": "https://maps.google.com/maps/search/hotels+near+Woodstock+IL",
+          "id": "d5-s7",
+          "time": "6:00 PM",
+          "name": "Check in at the Cherry Tree Inn B&B",
+          "mapUrl": "https://maps.google.com/maps/search/Cherry+Tree+Inn+Bed+and+Breakfast+344+Fremont+St+Woodstock+IL",
           "placeholderEmoji": "🏨",
-          "description": "Check into hotel near Woodstock/Crystal Lake area. Dinner at a local restaurant — options along US-14 corridor.",
+          "description": "The real-life 'Cherry Street Inn' from Groundhog Day — the Victorian at 344 Fremont St where Phil Connors wakes to 'I Got You Babe' every morning. Book the actual second-floor room used as Phil's; each room comes with a copy of the film. You're here two nights.",
           "pricing": {
-            "amount": "$130–$170/night",
+            "amount": "$140–$185/night",
             "type": "estimated"
           },
           "lodging": {
             "type": "away",
-            "name": "Hotel near Woodstock"
+            "name": "Cherry Tree Inn B&B"
+          },
+          "status": "planned",
+          "reservation": "Required — reserve Phil's room well ahead",
+          "coords": {
+            "lat": 42.3179,
+            "lng": -88.4503
+          }
+        },
+        {
+          "id": "d5-s8",
+          "time": "7:15 PM",
+          "name": "Dinner on the Woodstock Square",
+          "mapUrl": "https://maps.google.com/maps/search/restaurants+Woodstock+Square+IL",
+          "placeholderEmoji": "🍽️",
+          "description": "Walk to the historic square for dinner — Ethereal Confections, Mixin Mingle, or a square-side bistro. Varied menus beyond pub fare.",
+          "pricing": {
+            "amount": "$30–$45/pp",
+            "type": "estimated"
+          },
+          "coords": {
+            "lat": 42.3149,
+            "lng": -88.4483
           },
           "status": "planned"
         }
       ],
-      "tip": "💡 Illinois Railway Museum runs limited service in October (weekends only) — confirm they're running on a Monday before planning this. Volo Auto Museum is open daily."
+      "tip": "💡 In summer the Illinois Railway Museum runs weekday electric trains (11 AM–3 PM) — no weekend-only worry. Book Phil's room at the Cherry Tree Inn months ahead; it goes fast."
     },
     {
-      "dayNumber": 5,
+      "dayNumber": 6,
+      "title": "Woodstock & Groundhog Day",
+      "subtitle": "Tuesday, Jun 8",
+      "category": "mixed",
+      "drivingTime": "45 min total",
+      "drivingMiles": "22 mi",
+      "stops": [
+        {
+          "id": "d6-s1",
+          "time": "8:30 AM",
+          "name": "Breakfast at the Cherry Tree Inn",
+          "mapUrl": "https://maps.google.com/maps/search/Cherry+Tree+Inn+Bed+and+Breakfast+Woodstock+IL",
+          "placeholderEmoji": "🍽️",
+          "description": "Full breakfast is included with the stay — enjoy it in the same house Phil woke up in (hopefully only once).",
+          "pricing": {
+            "amount": "$0 (included)",
+            "type": "free"
+          },
+          "coords": {
+            "lat": 42.3179,
+            "lng": -88.4503
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s2",
+          "time": "9:45 AM",
+          "name": "Groundhog Day Walking Tour — Woodstock Square",
+          "mapUrl": "https://maps.google.com/maps/search/Woodstock+Square+Woodstock+IL",
+          "placeholderEmoji": "🎬",
+          "description": "Self-guided loop of the filming spots: the 'Tip Top Café' site, Ned Ryerson's corner, the puddle (\"it's a doozy!\"), and the gazebo. Bronze plaques mark 'Bill Murray Stepped Here' and the puddle. Flat, walkable square.",
+          "accessibility": "Flat town square, fully accessible sidewalks",
+          "pricing": {
+            "amount": "$0",
+            "type": "free"
+          },
+          "coords": {
+            "lat": 42.3148,
+            "lng": -88.4487
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s3",
+          "time": "11:00 AM",
+          "name": "Woodstock Opera House",
+          "mapUrl": "https://maps.google.com/maps/search/Woodstock+Opera+House+Woodstock+IL",
+          "placeholderEmoji": "🎭",
+          "description": "1889 landmark on the square, seen throughout the film (and the bell tower Phil leaps from). Step into the lobby and theater when open, or admire the Stick-style exterior. Box office can advise on tour availability.",
+          "hours": "Lobby/box office hours vary — call ahead for tours",
+          "pricing": {
+            "amount": "$0–$5/pp",
+            "type": "estimated"
+          },
+          "coords": {
+            "lat": 42.3149,
+            "lng": -88.4476
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s4",
+          "time": "12:30 PM",
+          "name": "Lunch on the Square",
+          "mapUrl": "https://maps.google.com/maps/search/lunch+Woodstock+Square+IL",
+          "placeholderEmoji": "🍽️",
+          "description": "Casual lunch around the square — Lucia Pizza, Benedict's La Strata, or a café. Plenty of non-seafood, varied options.",
+          "pricing": {
+            "amount": "$18–$28/pp",
+            "type": "estimated"
+          },
+          "coords": {
+            "lat": 42.3145,
+            "lng": -88.449
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s5",
+          "time": "2:00 PM",
+          "name": "Old Courthouse Arts Center",
+          "mapUrl": "https://maps.google.com/maps/search/Old+Courthouse+Arts+Center+Woodstock+IL",
+          "placeholderEmoji": "🏛️",
+          "description": "The 1857 courthouse and Sheriff's House on the square — both appear in the film. Now an arts center and gallery with rotating local exhibits. Easy, flat browse.",
+          "pricing": {
+            "amount": "Free (donation)",
+            "type": "free"
+          },
+          "coords": {
+            "lat": 42.3142,
+            "lng": -88.448
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s6",
+          "time": "3:30 PM",
+          "name": "Scenic drive — Bull Valley & countryside",
+          "mapUrl": "https://maps.google.com/maps/search/Bull+Valley+Road+Woodstock+IL",
+          "placeholderEmoji": "🗺️",
+          "description": "Relaxed afternoon loop through the rolling Bull Valley horse country northwest of town — quiet lanes, woodlots, and farmsteads. A scenic-drive break from the square.",
+          "pricing": {
+            "amount": "$0",
+            "type": "free"
+          },
+          "coords": {
+            "lat": 42.3361,
+            "lng": -88.4761
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s7",
+          "time": "6:30 PM",
+          "name": "Dinner in downtown Woodstock",
+          "mapUrl": "https://maps.google.com/maps/search/dinner+downtown+Woodstock+IL",
+          "placeholderEmoji": "🍽️",
+          "description": "A relaxed final dinner near the square — varied menus (Italian, American, steaks) so there's something for everyone.",
+          "pricing": {
+            "amount": "$30–$45/pp",
+            "type": "estimated"
+          },
+          "coords": {
+            "lat": 42.315,
+            "lng": -88.4488
+          },
+          "status": "planned"
+        },
+        {
+          "id": "d6-s8",
+          "time": "8:30 PM",
+          "name": "Second night at the Cherry Tree Inn",
+          "mapUrl": "https://maps.google.com/maps/search/Cherry+Tree+Inn+Bed+and+Breakfast+Woodstock+IL",
+          "placeholderEmoji": "🏨",
+          "description": "Back to Phil's Victorian for your second and final night. Pop in the complimentary copy of Groundhog Day if you haven't already.",
+          "pricing": {
+            "amount": "$140–$185/night",
+            "type": "estimated"
+          },
+          "lodging": {
+            "type": "away",
+            "name": "Cherry Tree Inn B&B"
+          },
+          "coords": {
+            "lat": 42.3179,
+            "lng": -88.4503
+          },
+          "status": "planned"
+        }
+      ],
+      "tip": "💡 Breakfast is included at the inn. Everything except the Bull Valley drive is walkable from the square — park once and stroll. Check the Opera House schedule in advance if you want to see the interior."
+    },
+    {
+      "dayNumber": 7,
       "title": "Departure Day",
-      "subtitle": "Tuesday, Oct 20",
+      "subtitle": "Wednesday, Jun 9",
       "category": "departure",
       "drivingTime": "1h 15m",
       "drivingMiles": "55 mi",
       "stops": [
         {
-          "id": "d5-s1",
+          "id": "d7-s1",
           "time": "8:00 AM",
-          "name": "Breakfast & check out",
-          "mapUrl": "https://maps.google.com/maps/search/breakfast+Woodstock+IL",
+          "name": "Breakfast & check out of the Cherry Tree Inn",
+          "mapUrl": "https://maps.google.com/maps/search/Cherry+Tree+Inn+Bed+and+Breakfast+Woodstock+IL",
           "placeholderEmoji": "🍽️",
-          "description": "Grab breakfast near the hotel. Allow 1.5 hours for the drive to ORD.",
+          "description": "Final included breakfast at the inn, then check out. Allow about 1h 15m for the drive to ORD.",
           "pricing": {
-            "amount": "$15/pp",
-            "type": "estimated"
+            "amount": "$0 (included)",
+            "type": "free"
           },
-          "status": "planned"
+          "status": "planned",
+          "coords": {
+            "lat": 42.3179,
+            "lng": -88.4503
+          }
         },
         {
-          "id": "d5-s2",
+          "id": "d7-s2",
           "time": "9:30 AM",
           "name": "Drive to O'Hare (ORD)",
           "mapUrl": "https://maps.google.com/maps/dir/Woodstock+IL/O'Hare+Airport",
@@ -620,7 +799,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d5-s3",
+          "id": "d7-s3",
           "time": "10:45 AM",
           "name": "Return rental car",
           "mapUrl": "https://maps.google.com/maps/search/O'Hare+Rental+Car+Center",
@@ -637,7 +816,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "d5-s4",
+          "id": "d7-s4",
           "time": "1:00 PM",
           "name": "Depart from O'Hare (ORD)",
           "mapUrl": "https://maps.google.com/maps/search/Chicago+O'Hare+International+Airport",
@@ -665,13 +844,14 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Round-trip DFW ↔ ORD (2 people)",
-            "detail": "American, United, or Southwest",
+            "detail": "American/United/Southwest; June is peak season for this route",
             "cost": {
-              "budget": 350,
-              "mid": 500,
-              "high": 650
+              "budget": 480,
+              "mid": 650,
+              "high": 840
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "June averages ~$325/pp round-trip; book early. 2027 fares not yet bookable — current-season range."
           }
         ]
       },
@@ -680,22 +860,23 @@ window.__TRIPS__.push({
         "name": "Car Rental",
         "items": [
           {
-            "item": "6-day rental (midsize sedan)",
-            "detail": "Enterprise or similar via ORD",
+            "item": "7-day rental (midsize sedan)",
+            "detail": "Midsize via ORD, incl. airport taxes/fees (~21%)",
             "cost": {
-              "budget": 270,
-              "mid": 330,
-              "high": 400
+              "budget": 420,
+              "mid": 520,
+              "high": 650
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "ORD airport surcharges are steep; off-airport pickup can be cheaper."
           },
           {
-            "item": "Gas (~500 miles)",
-            "detail": "~15 gallons at $3.50–$4.00",
+            "item": "Gas (~560 miles)",
+            "detail": "~20 gal at $3.50–$4.00 (rental, ~28 mpg)",
             "cost": {
-              "budget": 52,
-              "mid": 60,
-              "high": 70
+              "budget": 65,
+              "mid": 73,
+              "high": 82
             },
             "priceType": "estimated"
           }
@@ -717,14 +898,15 @@ window.__TRIPS__.push({
             "note": "Equivalent cash value ~$600–$800. Fees may apply for housekeeping."
           },
           {
-            "item": "Hotel near Woodstock (1 night)",
-            "detail": "Hampton Inn, Holiday Inn Express, or similar",
+            "item": "Cherry Tree Inn B&B, Woodstock (2 nights)",
+            "detail": "Groundhog Day house; Mon+Tue weeknights; breakfast included",
             "cost": {
-              "budget": 130,
-              "mid": 150,
-              "high": 170
+              "budget": 300,
+              "mid": 360,
+              "high": 410
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "No nightly rate published online — booked via ResNexus engine or by phone (815-308-5946). Estimate for a weeknight suite; confirm at booking."
           }
         ]
       },
@@ -764,13 +946,14 @@ window.__TRIPS__.push({
           },
           {
             "item": "Chestnut Mountain Chairlift",
-            "detail": "~$15/pp × 2",
+            "detail": "~$15–$20/pp × 2 (VERIFY summer operation)",
             "cost": {
               "budget": 30,
-              "mid": 30,
-              "high": 30
+              "mid": 36,
+              "high": 40
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Summer scenic-ride operation/price unconfirmed — resort runs alpine slide & Soaring Eagle in summer. Confirm before counting on the chairlift."
           },
           {
             "item": "Mississippi River Cruise",
@@ -784,43 +967,57 @@ window.__TRIPS__.push({
           },
           {
             "item": "Anderson Japanese Gardens",
-            "detail": "$12/pp × 2",
+            "detail": "$14/pp × 2 (weekend senior, 62+)",
             "cost": {
-              "budget": 24,
-              "mid": 24,
-              "high": 24
+              "budget": 28,
+              "mid": 28,
+              "high": 28
             },
-            "priceType": "confirmed"
+            "priceType": "estimated",
+            "note": "2026 rate; Sunday = weekend pricing."
           },
           {
             "item": "Historic Auto Attractions (Roscoe)",
-            "detail": "$12/pp × 2",
+            "detail": "$28/pp × 2 (no senior rate)",
+            "cost": {
+              "budget": 56,
+              "mid": 56,
+              "high": 56
+            },
+            "priceType": "estimated",
+            "note": "2026 rate; was under-budgeted at $12."
+          },
+          {
+            "item": "Illinois Railway Museum",
+            "detail": "$12/pp × 2 (weekday senior)",
             "cost": {
               "budget": 24,
               "mid": 24,
               "high": 24
             },
-            "priceType": "confirmed"
-          },
-          {
-            "item": "Illinois Railway Museum",
-            "detail": "$15/pp × 2",
-            "cost": {
-              "budget": 30,
-              "mid": 30,
-              "high": 30
-            },
-            "priceType": "confirmed"
+            "priceType": "estimated",
+            "note": "2026 weekday senior rate."
           },
           {
             "item": "Volo Auto Museum",
-            "detail": "$15/pp × 2",
+            "detail": "$22/pp × 2 (senior 60+)",
             "cost": {
-              "budget": 30,
-              "mid": 30,
-              "high": 30
+              "budget": 44,
+              "mid": 44,
+              "high": 44
             },
-            "priceType": "confirmed"
+            "priceType": "estimated",
+            "note": "2026 rate; was under-budgeted at $15."
+          },
+          {
+            "item": "Woodstock Opera House",
+            "detail": "Self-tour / lobby, $0–$5/pp × 2",
+            "cost": {
+              "budget": 0,
+              "mid": 6,
+              "high": 10
+            },
+            "priceType": "estimated"
           }
         ]
       },
@@ -829,32 +1026,32 @@ window.__TRIPS__.push({
         "name": "Dining",
         "items": [
           {
-            "item": "Breakfasts (6 days × 2 people)",
-            "detail": "Mix of resort, café, and hotel",
+            "item": "Breakfasts (5 paid days × 2)",
+            "detail": "Resort/café; 2 days included at the B&B",
             "cost": {
-              "budget": 120,
-              "mid": 170,
-              "high": 210
+              "budget": 100,
+              "mid": 145,
+              "high": 180
             },
             "priceType": "estimated"
           },
           {
-            "item": "Lunches (5 days × 2 people)",
+            "item": "Lunches (6 days × 2 people)",
             "detail": "Casual to mid-range restaurants",
             "cost": {
-              "budget": 180,
-              "mid": 250,
-              "high": 320
+              "budget": 215,
+              "mid": 300,
+              "high": 385
             },
             "priceType": "estimated"
           },
           {
-            "item": "Dinners (5 nights × 2 people)",
+            "item": "Dinners (6 nights × 2 people)",
             "detail": "Mid-range to fine dining",
             "cost": {
-              "budget": 300,
-              "mid": 420,
-              "high": 550
+              "budget": 360,
+              "mid": 505,
+              "high": 660
             },
             "priceType": "estimated"
           }
@@ -868,9 +1065,9 @@ window.__TRIPS__.push({
             "item": "Parking, tips, souvenirs",
             "detail": "Estimate for full trip",
             "cost": {
-              "budget": 75,
-              "mid": 120,
-              "high": 175
+              "budget": 85,
+              "mid": 135,
+              "high": 190
             },
             "priceType": "estimated"
           }
@@ -878,17 +1075,17 @@ window.__TRIPS__.push({
       }
     ],
     "totals": {
-      "budget": 1705,
-      "mid": 2263,
-      "high": 2853
+      "budget": 2297,
+      "mid": 3007,
+      "high": 3769
     },
     "tips": [
-      "Book flights 6–8 weeks out for best DFW→ORD fares. Southwest often has sales on this route.",
-      "Club Wyndham Galena saves $600–$800 compared to comparable hotel stays — significant trip savings.",
-      "Pack snacks and drinks for driving days to reduce impulse food stops.",
-      "Check for AAA/AARP discounts at attractions — several offer senior or membership pricing.",
-      "Fuel up in Galena or Rockford where gas tends to be cheaper than near O'Hare.",
-      "October is shoulder season — hotel rates near Woodstock will be lower than summer peak."
+      "Book DFW→ORD early — June is the priciest month on this route (~$325/pp round-trip average).",
+      "Club Wyndham Galena saves $600–$800 vs. hotels (4-night stay meets the 3-night minimum).",
+      "Reserve the Cherry Tree Inn by phone (815-308-5946) — no rates are posted online and the Groundhog Day rooms fill months out.",
+      "Renting off-airport (not at ORD) can dodge ~21% airport surcharges if you can arrange a shuttle.",
+      "Visit the Illinois Railway Museum on a summer weekday for the $12 senior rate vs. $18 weekend.",
+      "Ask about AAA/AARP senior discounts — Volo and Historic Auto Attractions are the priciest stops."
     ]
   }
 });

@@ -81,7 +81,7 @@ window.__TRIPS__.push({
           "placeholderEmoji": "🏨",
           "description": "Overnight in Owasso -- Darrell's hometown area. Several chain hotels on the 96th Street corridor near US-169.",
           "pricing": {
-            "amount": "$100-$170",
+            "amount": "$75-$140",
             "type": "estimated"
           },
           "lodging": {
@@ -198,7 +198,7 @@ window.__TRIPS__.push({
           "placeholderEmoji": "🏨",
           "description": "Return to Joplin for check-in. Base camp for tonight and tomorrow's Neosho and Newtonia stops. Several hotels along the Range Line Road and I-44 corridor.",
           "pricing": {
-            "amount": "$90-$160",
+            "amount": "$95-$160",
             "type": "estimated"
           },
           "lodging": {
@@ -451,7 +451,7 @@ window.__TRIPS__.push({
           "hours": "Check-in from 4 PM",
           "description": "Club Wyndham Mountain Vista -- a full timeshare resort with spacious suites, kitchen, laundry, and resort amenities. Points property; no nightly room cost beyond minimal fees. Base camp for 3 nights in Branson.",
           "pricing": {
-            "amount": "~$25-$50/night fees (timeshare points)",
+            "amount": "$0 room (points) + ~$25-$50/night fees",
             "type": "estimated"
           },
           "lodging": {
@@ -538,8 +538,8 @@ window.__TRIPS__.push({
           "hours": "Multiple showtimes daily; check schedule at sight-sound.com",
           "description": "Branson debut of Daniel -- a brand-new 2027 production running March 19 through December 31. Daniel in Babylon: the fiery furnace, the den of lions, live animals, and theatrical effects across a massive stage. Runtime 2h 20m with intermission. Book as soon as 2027 tickets open.",
           "pricing": {
-            "amount": "$62-$84/person",
-            "type": "confirmed"
+            "amount": "$60-$84/person",
+            "type": "estimated"
           },
           "coords": {
             "lat": 36.635,
@@ -556,7 +556,7 @@ window.__TRIPS__.push({
           "placeholderEmoji": "🎵",
           "description": "Evening music show on the Branson strip. Top picks: Absolutely Country Definitely Gospel (Americana Theater) for a country-gospel blend, or Clay Cooper's Country Express for classic country variety.",
           "pricing": {
-            "amount": "$55-$65/person",
+            "amount": "$44-$65/person",
             "type": "estimated"
           },
           "coords": {
@@ -603,7 +603,7 @@ window.__TRIPS__.push({
           "hours": "Mon-Sat 10 AM-5 PM, Sun noon-5 PM",
           "description": "18,000 sq ft, 10 halls, and 2,000 exhibits honoring American soldiers across 20th-century conflicts -- letters, weapons, medals, and uniforms. A fitting stop given the military heritage theme of the whole trip.",
           "pricing": {
-            "amount": "~$20/person",
+            "amount": "~$20/person +tax",
             "type": "estimated"
           },
           "coords": {
@@ -656,7 +656,7 @@ window.__TRIPS__.push({
           "placeholderEmoji": "🎵",
           "description": "Second evening music show. Consider Pierce Arrow or New South Gospel for variety from the previous night.",
           "pricing": {
-            "amount": "$55-$65/person",
+            "amount": "$44-$65/person",
             "type": "estimated"
           },
           "coords": {
@@ -754,7 +754,7 @@ window.__TRIPS__.push({
           "placeholderEmoji": "🏨",
           "description": "Overnight in Little Rock. Downtown hotels near the River Market district are close to dining along the Arkansas River and a short drive from the MacArthur Museum for Day 8.",
           "pricing": {
-            "amount": "$110-$175",
+            "amount": "$100-$175",
             "type": "estimated"
           },
           "lodging": {
@@ -910,14 +910,14 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Fuel -- approx 1,500 miles total",
-            "detail": "Chevy Volt at 39.5 mpg, approx 38 gallons",
+            "detail": "Chevy Volt ~39.5 mpg; ~1,500 mi = ~38 gallons",
             "cost": {
-              "budget": 96,
-              "mid": 106,
-              "high": 121
+              "budget": 129,
+              "mid": 144,
+              "high": 160
             },
             "priceType": "estimated",
-            "note": "Electric range offsets Branson local driving; ask Club Wyndham about Level 2 EV charging"
+            "note": "June 2026 AAA: OK ~$3.38, AR ~$3.59, MO mid-$3s; using $3.40-$4.20/gal. Volt electric range covers nearly all short Branson local hops, so gallons are conservative."
           }
         ]
       },
@@ -929,21 +929,23 @@ window.__TRIPS__.push({
             "item": "Owasso/Tulsa hotel (Night 1)",
             "detail": "1 night, Thursday July 22",
             "cost": {
-              "budget": 100,
-              "mid": 130,
-              "high": 170
+              "budget": 75,
+              "mid": 105,
+              "high": 140
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Representative current rates (June 2026); Owasso/Tulsa mid-range chains run ~$60-$140. July 2027 is >12 mo out, so booked rates may differ."
           },
           {
             "item": "Joplin hotel (Nights 2-3)",
             "detail": "2 nights, Friday-Saturday July 23-24",
             "cost": {
-              "budget": 180,
-              "mid": 240,
+              "budget": 190,
+              "mid": 262,
               "high": 320
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Joplin avg ~$131/night (June 2026); mid-range $94-$160. Two nights. >12 mo out, indicative only."
           },
           {
             "item": "Club Wyndham Mountain Vista (Nights 4-6)",
@@ -954,17 +956,18 @@ window.__TRIPS__.push({
               "high": 150
             },
             "priceType": "estimated",
-            "note": "Equivalent cash value $450-$600 saved. Confirm points availability early."
+            "note": "Timeshare points: $0 nightly room cost, only resort/booking fees over 3 nights. Equivalent cash value ~$450-$600 saved. Confirm points availability early."
           },
           {
             "item": "Little Rock hotel (Night 7)",
             "detail": "1 night Wednesday July 28, no Club Wyndham in Little Rock",
             "cost": {
-              "budget": 110,
-              "mid": 150,
+              "budget": 100,
+              "mid": 135,
               "high": 175
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Downtown/River Market 3-star avg ~$116/night (June 2026); range $68-$183. >12 mo out, indicative only."
           }
         ]
       },
@@ -981,58 +984,62 @@ window.__TRIPS__.push({
               "high": 0
             },
             "priceType": "confirmed",
-            "note": "The entire heritage core of this trip is free"
+            "note": "Verified free June 2026: Honey Springs, Carthage square, Neosho/Newtonia, Cane Hill, Prairie Grove State Park, DeValls Bluff markers, Old State House, and MacArthur Museum all free admission."
           },
           {
             "item": "Sight and Sound Daniel -- 2 people",
-            "detail": "Debuting 2027 at Sight and Sound Branson -- book immediately when tickets open",
+            "detail": "2027 Branson debut (runs Mar 19-Dec 31, 2027), confirmed by Sight & Sound/PRNewswire announcement",
             "cost": {
-              "budget": 124,
+              "budget": 120,
               "mid": 146,
               "high": 168
             },
-            "priceType": "confirmed",
-            "note": "$62-$84/person; first-year productions sell out"
+            "priceType": "estimated",
+            "note": "Current Branson adult tickets ~$56-$84/person (senior discounts may apply but not published for Daniel yet); using $60-$84/person. 2027 prices not yet released--book the moment sales open, first-year shows sell out."
           },
           {
             "item": "Veterans Memorial Museum -- 2 people",
-            "detail": "1250 W 76 Country Blvd, Branson",
+            "detail": "1250 W 76 Country Blvd, Branson; adult ~$20/person +tax",
             "cost": {
-              "budget": 40,
-              "mid": 40,
-              "high": 40
+              "budget": 42,
+              "mid": 43,
+              "high": 46
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Adult admission ~$20.03/person +tax (June 2026); senior discount not clearly published. ~$42-$46 for two."
           },
           {
             "item": "Reza Edge of Illusion -- 2 people",
             "detail": "Reza Live Theatre, Branson",
             "cost": {
-              "budget": 80,
-              "mid": 100,
-              "high": 120
+              "budget": 74,
+              "mid": 90,
+              "high": 104
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Reza Live Theatre: discount tickets ~$37, standard ~$52/person (June 2026); BOGO promos common. ~$74-$104 for two."
           },
           {
             "item": "Music Show #1 -- 2 people",
-            "detail": "Branson strip, country or gospel",
+            "detail": "Branson strip, country/gospel (e.g. Clay Cooper from ~$44/person)",
             "cost": {
-              "budget": 111,
-              "mid": 119,
-              "high": 127
+              "budget": 88,
+              "mid": 110,
+              "high": 130
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Typical Branson music-show tickets ~$44-$65/person (June 2026); BOGO/half-price promos common. ~$88-$130 for two."
           },
           {
             "item": "Music Show #2 -- 2 people",
-            "detail": "Branson strip",
+            "detail": "Branson strip (e.g. Pierce Arrow BOGO from ~$30/person, standard ~$45-$65)",
             "cost": {
-              "budget": 111,
-              "mid": 119,
-              "high": 127
+              "budget": 88,
+              "mid": 110,
+              "high": 130
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Typical Branson music-show tickets ~$44-$65/person (June 2026); promos common. ~$88-$130 for two."
           }
         ]
       },
@@ -1090,15 +1097,16 @@ window.__TRIPS__.push({
       }
     ],
     "totals": {
-      "budget": 1697,
-      "mid": 2165,
-      "high": 2728
+      "budget": 1651,
+      "mid": 2160,
+      "high": 2733
     },
     "tips": [
-      "Book Sight and Sound Daniel the moment 2027 tickets go on sale -- first-year Branson productions fill up months ahead.",
-      "Confirm Club Wyndham Mountain Vista points availability early; 3 nights saves $450-$600 vs. cash rates.",
-      "Every historical site on this trip is free -- Honey Springs, Carthage, Prairie Grove, DeValls Bluff, and MacArthur Museum all cost nothing.",
-      "The Chevy Volt's electric range handles all Branson local driving; ask Club Wyndham about Level 2 EV charging.",
+      "Book Sight and Sound Daniel the moment 2027 tickets go on sale -- first-year Branson productions fill months ahead, and 2027 prices were not yet released as of June 2026 (current adult tickets run ~$56-$84/person).",
+      "Confirm Club Wyndham Mountain Vista points availability early; 3 nights on points means $0 room cost (fees only), saving ~$450-$600 vs. cash rates.",
+      "Every historical site on this trip is free -- Honey Springs, Carthage, Neosho/Newtonia, Cane Hill, Prairie Grove, DeValls Bluff, Old State House, and MacArthur Museum all verified free (June 2026).",
+      "Hotel figures use current representative rates (June 2026); July 2027 is more than a year out, so actual booked rates will vary -- rebook closer to the date.",
+      "Gas is based on the Chevy Volt at ~39.5 mpg over ~1,500 mi (~38 gal); OK/AR were among the nation's cheapest (~$3.38-$3.59) in June 2026, and the Volt's electric range covers nearly all short Branson local driving.",
       "Hit outdoor battlefield stops before noon in late July -- temperatures routinely hit 100+ by early afternoon."
     ]
   }

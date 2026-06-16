@@ -13,7 +13,7 @@ window.__TRIPS__.push({
   "alignmentNote": "Best travel dates: Arrive Saturday May 24. This puts Plymouth on Wednesday (Pilgrim Hall Museum is Wed–Sun only) and gives 3 consecutive nights at Club Wyndham Long Wharf (minimum required for points bookings). No rental car in Boston Days 1–2 saves ~$110–140 + parking fees.",
   "days": [
     {
-      "dayNumber": 0,
+      "dayNumber": 1,
       "title": "Arrive Boston",
       "subtitle": "Saturday, May 24",
       "category": "travel",
@@ -21,7 +21,7 @@ window.__TRIPS__.push({
       "drivingMiles": null,
       "stops": [
         {
-          "id": "bp-0-1",
+          "id": "d1-bp-0-1",
           "time": "Afternoon",
           "name": "Fly into Boston Logan (BOS)",
           "mapUrl": "https://www.google.com/maps/search/Boston+Logan+International+Airport",
@@ -34,7 +34,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-0-2",
+          "id": "d1-bp-0-2",
           "time": "3:00 PM",
           "name": "Check in — Wyndham Boston Beacon Hill",
           "mapUrl": "https://www.google.com/maps/search/Wyndham+Boston+Beacon+Hill+200+Stuart+St",
@@ -50,12 +50,12 @@ window.__TRIPS__.push({
           },
           "coords": {
             "lat": 42.3505,
-            "lng": -71.0660
+            "lng": -71.066
           },
           "status": "planned"
         },
         {
-          "id": "bp-0-3",
+          "id": "d1-bp-0-3",
           "time": "Evening",
           "name": "North End dinner",
           "mapUrl": "https://www.google.com/maps/search/Hanover+Street+North+End+Boston",
@@ -73,7 +73,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-0-4",
+          "id": "d1-bp-0-4",
           "time": "After dinner",
           "name": "Walk the Harborwalk",
           "mapUrl": "https://www.google.com/maps/search/Boston+Harborwalk",
@@ -89,7 +89,7 @@ window.__TRIPS__.push({
       "tip": "💡 If you arrive early enough, walk through the Boston Public Garden to see the swan boats and the famous Make Way for Ducklings statues."
     },
     {
-      "dayNumber": 1,
+      "dayNumber": 2,
       "title": "Boston — Trolley & History Day",
       "subtitle": "Sunday, May 25",
       "category": "heritage",
@@ -97,14 +97,14 @@ window.__TRIPS__.push({
       "drivingMiles": null,
       "stops": [
         {
-          "id": "bp-1-1",
+          "id": "d2-bp-1-1",
           "time": "9:00 AM",
           "name": "Old Town Trolley + Tea Party Combo",
           "mapUrl": "https://www.google.com/maps/search/Old+Town+Trolley+Tours+Boston",
           "placeholderEmoji": "🚎",
           "description": "Hop-on/hop-off trolley covers 12+ stops along the Freedom Trail: Faneuil Hall, North End, Beacon Hill, Back Bay, Bunker Hill. Combo includes Boston Tea Party Ships & Museum admission and 45-minute harbor cruise.",
           "pricing": {
-            "amount": "$77/pp",
+            "amount": "$79/pp",
             "type": "confirmed"
           },
           "coords": {
@@ -114,7 +114,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-1-2",
+          "id": "d2-bp-1-2",
           "time": "11:00 AM",
           "name": "Boston Tea Party Ships & Museum",
           "mapUrl": "https://www.google.com/maps/search/Boston+Tea+Party+Ships+Museum",
@@ -131,7 +131,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-1-3",
+          "id": "d2-bp-1-3",
           "time": "12:30 PM",
           "name": "Lunch — Faneuil Hall / Quincy Market",
           "mapUrl": "https://www.google.com/maps/search/Faneuil+Hall+Marketplace+Boston",
@@ -142,13 +142,13 @@ window.__TRIPS__.push({
             "type": "estimated"
           },
           "coords": {
-            "lat": 42.3600,
+            "lat": 42.36,
             "lng": -71.0549
           },
           "status": "planned"
         },
         {
-          "id": "bp-1-4",
+          "id": "d2-bp-1-4",
           "time": "1:30 PM",
           "name": "USS Constitution & Museum",
           "mapUrl": "https://www.google.com/maps/search/USS+Constitution+Museum+Charlestown",
@@ -165,7 +165,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-1-5",
+          "id": "d2-bp-1-5",
           "time": "3:00 PM",
           "name": "Harbor Cruise (included in combo)",
           "mapUrl": "https://www.google.com/maps/search/Boston+Harbor+Cruise",
@@ -178,7 +178,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-1-6",
+          "id": "d2-bp-1-6",
           "time": "Evening",
           "name": "Dinner — Back Bay or Seaport",
           "mapUrl": "https://www.google.com/maps/search/Seaport+District+Boston+restaurants",
@@ -194,7 +194,7 @@ window.__TRIPS__.push({
       "tip": "💡 The trolley runs every 15–20 minutes. Ride the full loop once without getting off (~100 min), then hop on/off at your favorite stops the rest of the day."
     },
     {
-      "dayNumber": 2,
+      "dayNumber": 3,
       "title": "Larz Anderson → Plymouth → Newport",
       "subtitle": "Monday, May 26",
       "category": "heritage",
@@ -202,7 +202,7 @@ window.__TRIPS__.push({
       "drivingMiles": "~130 mi",
       "stops": [
         {
-          "id": "bp-2-1",
+          "id": "d3-bp-2-1",
           "time": "8:30 AM",
           "name": "Check out, pick up rental car",
           "mapUrl": "https://www.google.com/maps/search/Enterprise+Rent+A+Car+downtown+Boston",
@@ -215,14 +215,14 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-2-2",
+          "id": "d3-bp-2-2",
           "time": "9:30 AM",
           "name": "Larz Anderson Auto Museum",
           "mapUrl": "https://www.google.com/maps/search/Larz+Anderson+Auto+Museum+Brookline",
           "placeholderEmoji": "🏎️",
           "description": "Brookline — 'America's Oldest Car Collection.' Housed in a 1927 carriage house on the grounds of the Larz Anderson estate. Rotating exhibits featuring pre-war automobiles, antique motorcycles, and seasonal car shows. ~1 hour visit.",
           "pricing": {
-            "amount": "$12/pp",
+            "amount": "$10/pp (senior)",
             "type": "confirmed"
           },
           "coords": {
@@ -232,7 +232,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-2-3",
+          "id": "d3-bp-2-3",
           "time": "11:00 AM",
           "name": "Drive to Plymouth",
           "mapUrl": "https://www.google.com/maps/dir/Larz+Anderson+Auto+Museum/Plymouth+MA",
@@ -245,7 +245,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-2-4",
+          "id": "d3-bp-2-4",
           "time": "12:00 PM",
           "name": "Lunch in Plymouth",
           "mapUrl": "https://www.google.com/maps/search/Plymouth+MA+waterfront+restaurants",
@@ -262,14 +262,14 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-2-5",
+          "id": "d3-bp-2-5",
           "time": "1:00 PM",
           "name": "Mayflower II & Plimoth Patuxet Museums",
           "mapUrl": "https://www.google.com/maps/search/Plimoth+Patuxet+Museums+Plymouth+MA",
           "placeholderEmoji": "⛵",
           "description": "Combo ticket covers both. Mayflower II is a full-scale replica of the original ship — costumed interpreters portray actual passengers. Plimoth Patuxet recreates the 1627 Pilgrim Village and a Wampanoag homesite. Edward Doty was among the 102 passengers who made this crossing.",
           "pricing": {
-            "amount": "$42/pp",
+            "amount": "$40/pp (senior)",
             "type": "confirmed"
           },
           "coords": {
@@ -279,24 +279,24 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-2-6",
+          "id": "d3-bp-2-6",
           "time": "3:30 PM",
           "name": "Pilgrim Hall Museum",
           "mapUrl": "https://www.google.com/maps/search/Pilgrim+Hall+Museum+Plymouth+MA",
           "placeholderEmoji": "🏛️",
           "description": "America's oldest continuously operating museum (since 1824). Original Pilgrim artifacts including furniture, weapons, and the sword of Miles Standish. Open Wed–Sun; your Wednesday arrival ensures it's open.",
           "pricing": {
-            "amount": "$15/pp",
+            "amount": "$12/pp (senior)",
             "type": "confirmed"
           },
           "coords": {
             "lat": 41.9573,
-            "lng": -70.6660
+            "lng": -70.666
           },
           "status": "planned"
         },
         {
-          "id": "bp-2-7",
+          "id": "d3-bp-2-7",
           "time": "4:30 PM",
           "name": "Drive to Newport, RI",
           "mapUrl": "https://www.google.com/maps/dir/Plymouth+MA/Club+Wyndham+Long+Wharf+Newport+RI",
@@ -309,7 +309,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-2-8",
+          "id": "d3-bp-2-8",
           "time": "6:00 PM",
           "name": "Check in — Club Wyndham Long Wharf Resort",
           "mapUrl": "https://www.google.com/maps/search/Club+Wyndham+Long+Wharf+Newport+RI",
@@ -333,7 +333,7 @@ window.__TRIPS__.push({
       "tip": "💡 Monday is Memorial Day — Plimoth Patuxet and Pilgrim Hall will be open but expect heavier crowds. Arriving mid-afternoon helps you dodge the worst of it."
     },
     {
-      "dayNumber": 3,
+      "dayNumber": 4,
       "title": "Newport Mansions & Car Museum",
       "subtitle": "Tuesday, May 27",
       "category": "sightseeing",
@@ -341,14 +341,14 @@ window.__TRIPS__.push({
       "drivingMiles": "~20 mi",
       "stops": [
         {
-          "id": "bp-3-1",
+          "id": "d4-bp-3-1",
           "time": "9:00 AM",
           "name": "The Breakers",
           "mapUrl": "https://www.google.com/maps/search/The+Breakers+Newport+RI",
           "placeholderEmoji": "🏛️",
-          "description": "Cornelius Vanderbilt II's 70-room Italian Renaissance palazzo. Newport's #1 attraction. Marble interiors, ocean views, opulent gilded-age excess at its peak. ~1.5 hrs with self-guided audio tour.",
+          "description": "Cornelius Vanderbilt II's 70-room Italian Renaissance palazzo. Newport's #1 attraction. Marble interiors, ocean views, opulent gilded-age excess at its peak. ~1.5 hrs with self-guided audio tour. Buy the \"Breakers + 1\" combo online — covers Marble House too; The Breakers requires a timed-entry reservation.",
           "pricing": {
-            "amount": "$29/pp",
+            "amount": "$45/pp (Breakers + Marble House combo)",
             "type": "confirmed"
           },
           "coords": {
@@ -358,14 +358,14 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-3-2",
+          "id": "d4-bp-3-2",
           "time": "11:00 AM",
           "name": "Marble House",
           "mapUrl": "https://www.google.com/maps/search/Marble+House+Newport+RI",
           "placeholderEmoji": "🏛️",
-          "description": "William K. Vanderbilt's gift to his wife Alva — modeled after the Petit Trianon at Versailles. 500,000 cubic feet of marble. Adjacent to The Breakers on Bellevue Ave.",
+          "description": "William K. Vanderbilt's gift to his wife Alva — modeled after the Petit Trianon at Versailles. 500,000 cubic feet of marble. Adjacent to The Breakers on Bellevue Ave. Included in the \"Breakers + 1\" combo ticket bought at The Breakers.",
           "pricing": {
-            "amount": "$18/pp (combo discount)",
+            "amount": "$0 (in Breakers + 1 combo)",
             "type": "confirmed"
           },
           "coords": {
@@ -375,7 +375,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-3-3",
+          "id": "d4-bp-3-3",
           "time": "12:30 PM",
           "name": "Lunch — Thames Street",
           "mapUrl": "https://www.google.com/maps/search/Thames+Street+Newport+RI+restaurants",
@@ -392,14 +392,14 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-3-4",
+          "id": "d4-bp-3-4",
           "time": "2:00 PM",
           "name": "Newport Car Museum",
           "mapUrl": "https://www.google.com/maps/search/Newport+Car+Museum+Portsmouth+RI",
           "placeholderEmoji": "🏎️",
           "description": "85+ vehicles across 80,000 sq ft in Portsmouth (~15 min drive). Muscle cars, Corvettes, exotics, and rarities displayed in a modern gallery setting. One of New England's best auto collections.",
           "pricing": {
-            "amount": "$20/pp",
+            "amount": "$15/pp (senior)",
             "type": "confirmed"
           },
           "coords": {
@@ -409,7 +409,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-3-5",
+          "id": "d4-bp-3-5",
           "time": "4:30 PM",
           "name": "Cliff Walk (partial)",
           "mapUrl": "https://www.google.com/maps/search/Cliff+Walk+Newport+RI+Forty+Steps",
@@ -421,12 +421,12 @@ window.__TRIPS__.push({
           },
           "coords": {
             "lat": 41.4699,
-            "lng": -71.3010
+            "lng": -71.301
           },
           "status": "planned"
         },
         {
-          "id": "bp-3-6",
+          "id": "d4-bp-3-6",
           "time": "Evening",
           "name": "Dinner — Bowen's Wharf",
           "mapUrl": "https://www.google.com/maps/search/Bowens+Wharf+Newport+RI+restaurants",
@@ -447,7 +447,7 @@ window.__TRIPS__.push({
       "tip": "💡 Buy the Newport Mansions combo ticket online in advance — saves 15–20% vs. individual admission and lets you skip the ticket line."
     },
     {
-      "dayNumber": 4,
+      "dayNumber": 5,
       "title": "Scenic Drives & Lighthouse",
       "subtitle": "Wednesday, May 28",
       "category": "nature",
@@ -455,7 +455,7 @@ window.__TRIPS__.push({
       "drivingMiles": "~80 mi loop",
       "stops": [
         {
-          "id": "bp-4-1",
+          "id": "d5-bp-4-1",
           "time": "9:00 AM",
           "name": "Beavertail Lighthouse & State Park",
           "mapUrl": "https://www.google.com/maps/search/Beavertail+Lighthouse+Jamestown+RI",
@@ -472,7 +472,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-4-2",
+          "id": "d5-bp-4-2",
           "time": "10:30 AM",
           "name": "Conanicut Island scenic loop",
           "mapUrl": "https://www.google.com/maps/search/Fort+Wetherill+State+Park+Jamestown+RI",
@@ -489,7 +489,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-4-3",
+          "id": "d5-bp-4-3",
           "time": "12:00 PM",
           "name": "Lunch — Jamestown or Wickford",
           "mapUrl": "https://www.google.com/maps/search/Wickford+Village+North+Kingstown+RI",
@@ -502,7 +502,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-4-4",
+          "id": "d5-bp-4-4",
           "time": "1:30 PM",
           "name": "Rhode Island Farm Coast drive",
           "mapUrl": "https://www.google.com/maps/search/Narragansett+RI+scenic+drive",
@@ -515,7 +515,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-4-5",
+          "id": "d5-bp-4-5",
           "time": "3:30 PM",
           "name": "Narragansett Town Beach & The Towers",
           "mapUrl": "https://www.google.com/maps/search/The+Towers+Narragansett+RI",
@@ -532,7 +532,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-4-6",
+          "id": "d5-bp-4-6",
           "time": "5:00 PM",
           "name": "Return to Newport",
           "mapUrl": "https://www.google.com/maps/dir/Narragansett+RI/Newport+RI",
@@ -545,7 +545,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-4-7",
+          "id": "d5-bp-4-7",
           "time": "Evening",
           "name": "Farewell dinner in Newport",
           "mapUrl": "https://www.google.com/maps/search/Castle+Hill+Inn+Newport+RI",
@@ -562,7 +562,7 @@ window.__TRIPS__.push({
       "tip": "💡 This is the scenic-drive day your wife will love. Beavertail at low tide reveals tidal pools; bring good walking shoes for the rocky shoreline."
     },
     {
-      "dayNumber": 5,
+      "dayNumber": 6,
       "title": "Depart — Plymouth Heritage",
       "subtitle": "Thursday, May 29",
       "category": "heritage",
@@ -570,7 +570,7 @@ window.__TRIPS__.push({
       "drivingMiles": "~105 mi",
       "stops": [
         {
-          "id": "bp-5-1",
+          "id": "d6-bp-5-1",
           "time": "9:00 AM",
           "name": "Check out of Club Wyndham Long Wharf",
           "mapUrl": "https://www.google.com/maps/search/Club+Wyndham+Long+Wharf+Newport+RI",
@@ -583,7 +583,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-5-2",
+          "id": "d6-bp-5-2",
           "time": "10:30 AM",
           "name": "Edward Doty marker & Burial Hill",
           "mapUrl": "https://www.google.com/maps/search/Burial+Hill+Plymouth+MA",
@@ -600,14 +600,14 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-5-3",
+          "id": "d6-bp-5-3",
           "time": "11:30 AM",
           "name": "Mayflower Society House",
           "mapUrl": "https://www.google.com/maps/search/Mayflower+Society+House+Plymouth+MA",
           "placeholderEmoji": "🏛️",
-          "description": "Headquarters of the General Society of Mayflower Descendants. Research library, historic house tours, and genealogy resources. If you haven't already joined as a verified descendant, this is the place to start.",
+          "description": "Headquarters of the General Society of Mayflower Descendants. Research library, historic house tours, and genealogy resources. If you haven't already joined as a verified descendant, this is the place to start. Docent tour offered when the Open Flag is flying — verify hours before visiting, as access can be limited.",
           "pricing": {
-            "amount": "$10/pp",
+            "amount": "$5/pp (AAA/senior)",
             "type": "confirmed"
           },
           "coords": {
@@ -617,7 +617,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-5-4",
+          "id": "d6-bp-5-4",
           "time": "12:30 PM",
           "name": "Lunch in Plymouth",
           "mapUrl": "https://www.google.com/maps/search/Plymouth+MA+downtown+restaurants",
@@ -630,7 +630,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-5-5",
+          "id": "d6-bp-5-5",
           "time": "2:00 PM",
           "name": "Drive to Boston Logan (BOS)",
           "mapUrl": "https://www.google.com/maps/dir/Plymouth+MA/Boston+Logan+Airport",
@@ -643,7 +643,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bp-5-6",
+          "id": "d6-bp-5-6",
           "time": "4:00 PM+",
           "name": "Depart Boston",
           "mapUrl": "https://www.google.com/maps/search/Boston+Logan+International+Airport",
@@ -667,13 +667,14 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Round-trip flights (2 people)",
-            "detail": "DFW ↔ BOS or comparable home airport",
+            "detail": "DFW ↔ BOS nonstop (American/JetBlue), late May",
             "cost": {
-              "budget": 400,
-              "mid": 550,
-              "high": 700
+              "budget": 340,
+              "mid": 460,
+              "high": 640
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "May 2027 dates are >12 months out and not yet bookable. Range reflects current representative late-May DFW↔BOS round-trip fares for 2 (~$170–320/pp); book ~2–4 months out for best price."
           }
         ]
       },
@@ -683,23 +684,25 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Rental car (4 days: Mon–Thu)",
-            "detail": "Enterprise downtown Boston pickup, Logan airport return",
+            "detail": "Enterprise downtown Boston pickup, Logan airport return (one-way)",
             "cost": {
-              "budget": 220,
-              "mid": 250,
-              "high": 280
+              "budget": 260,
+              "mid": 340,
+              "high": 440
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "May 2027 not yet bookable. Boston rates run high (~$60–110/day for a midsize) plus one-way drop and ~$35 Logan concession/facility fees; range = current representative late-May quotes for 4 days."
           },
           {
             "item": "Gas (~300 miles)",
-            "detail": "Boston → Plymouth → Newport → Plymouth → BOS loop",
+            "detail": "Rental (not the Volt) — ~300 mi loop; ~$3.10–3.40/gal MA/RI mid-2026",
             "cost": {
-              "budget": 40,
-              "mid": 48,
-              "high": 55
+              "budget": 34,
+              "mid": 42,
+              "high": 50
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Rental car gas, not personal Chevy Volt. ~300 mi at ~28–30 mpg midsize."
           },
           {
             "item": "Taxi/Lyft — airport ↔ hotel (Days 1–2)",
@@ -721,12 +724,12 @@ window.__TRIPS__.push({
             "item": "Wyndham Boston Beacon Hill (2 nights)",
             "detail": "Standard Wyndham hotel — cash rate, not Club Wyndham",
             "cost": {
-              "budget": 378,
-              "mid": 438,
-              "high": 498
+              "budget": 340,
+              "mid": 460,
+              "high": 560
             },
             "priceType": "estimated",
-            "note": "Memorial Day weekend rates may be higher — book early"
+            "note": "Memorial Day weekend (Sat May 24–25) — Boston rates run high; recent rates ~$170–280/night, holiday weekend trends toward the top. Book early. 2027 dates not yet bookable."
           },
           {
             "item": "Club Wyndham Long Wharf Resort (3 nights)",
@@ -737,7 +740,7 @@ window.__TRIPS__.push({
               "high": 0
             },
             "priceType": "confirmed",
-            "note": "Saves $696–889 vs. comparable Newport hotels at $232–296/night"
+            "note": "Timeshare points booking = $0 nightly (points/maintenance fees only). Saves ~$700–900 vs. comparable Newport hotels at ~$230–300/night."
           }
         ]
       },
@@ -747,37 +750,27 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Old Town Trolley + Tea Party combo (×2)",
-            "detail": "Includes hop-on/hop-off trolley, Tea Party Museum, harbor cruise",
+            "detail": "trolleytours.com online advance package — $78.95/pp (no senior rate on combo)",
             "cost": {
-              "budget": 154,
-              "mid": 154,
-              "high": 154
+              "budget": 158,
+              "mid": 158,
+              "high": 158
             },
             "priceType": "confirmed"
           },
           {
             "item": "Plimoth Patuxet + Mayflower II combo (×2)",
-            "detail": "plimoth.org combo ticket",
+            "detail": "plimoth.org Combination Pass — Senior $39.60/pp",
             "cost": {
-              "budget": 84,
-              "mid": 84,
-              "high": 84
+              "budget": 80,
+              "mid": 80,
+              "high": 80
             },
             "priceType": "confirmed"
           },
           {
             "item": "Pilgrim Hall Museum (×2)",
-            "detail": "America's oldest museum — $15/pp",
-            "cost": {
-              "budget": 30,
-              "mid": 30,
-              "high": 30
-            },
-            "priceType": "confirmed"
-          },
-          {
-            "item": "Larz Anderson Auto Museum (×2)",
-            "detail": "Brookline — $12/pp",
+            "detail": "America's oldest museum — Senior (62+) $12/pp",
             "cost": {
               "budget": 24,
               "mid": 24,
@@ -786,32 +779,42 @@ window.__TRIPS__.push({
             "priceType": "confirmed"
           },
           {
-            "item": "The Breakers + Marble House combo (×2)",
-            "detail": "Newport Mansions combo — newportmansions.org",
+            "item": "Larz Anderson Auto Museum (×2)",
+            "detail": "Brookline — Senior $10/pp",
             "cost": {
-              "budget": 58,
-              "mid": 58,
-              "high": 58
+              "budget": 20,
+              "mid": 20,
+              "high": 20
+            },
+            "priceType": "confirmed"
+          },
+          {
+            "item": "The Breakers + Marble House combo (×2)",
+            "detail": "newportmansions.org \"The Breakers + 1\" combo — $45/pp adult (no senior rate; timed Breakers entry)",
+            "cost": {
+              "budget": 90,
+              "mid": 90,
+              "high": 90
             },
             "priceType": "confirmed"
           },
           {
             "item": "Newport Car Museum (×2)",
-            "detail": "Portsmouth, RI — $20/pp",
+            "detail": "Portsmouth, RI — Senior $15/pp",
             "cost": {
-              "budget": 40,
-              "mid": 40,
-              "high": 40
+              "budget": 30,
+              "mid": 30,
+              "high": 30
             },
             "priceType": "confirmed"
           },
           {
             "item": "Mayflower Society House (×2)",
-            "detail": "Plymouth — $10/pp",
+            "detail": "Plymouth — docent tour, AAA/Senior $5/pp ($7 general)",
             "cost": {
-              "budget": 20,
-              "mid": 20,
-              "high": 20
+              "budget": 10,
+              "mid": 10,
+              "high": 10
             },
             "priceType": "confirmed"
           },
@@ -901,20 +904,22 @@ window.__TRIPS__.push({
       }
     ],
     "totals": {
-      "budget": 2058,
-      "mid": 2511,
-      "high": 2963
+      "budget": 1996,
+      "mid": 2529,
+      "high": 3122
     },
     "timeshareSavings": {
-      "low": 696,
-      "high": 889,
-      "note": "Club Wyndham Long Wharf 3 nights vs. comparable Newport hotels at $232–296/night"
+      "low": 700,
+      "high": 900,
+      "note": "Club Wyndham Long Wharf 3 nights on points vs. comparable Newport hotels at ~$230–300/night"
     },
     "tips": [
       "No rental car in Boston (Days 1–2) — trolley, walking, and taxi cover everything. Saves ~$110–140 plus $35–50/night hotel parking.",
-      "Club Wyndham 3-night stay saves $696–889 vs. comparable Newport hotels. Kitchen-equipped suites also save on breakfast costs.",
-      "Buy combo tickets online in advance — Old Town Trolley + Tea Party (~15% savings) and Newport Mansions combo (~20% savings vs. individual admission).",
-      "Memorial Day weekend (May 24–25) means Boston hotels are pricier. Book the Wyndham Beacon Hill early for best rates.",
+      "Club Wyndham 3-night stay on points saves ~$700–900 vs. comparable Newport hotels. Kitchen-equipped suites also save on breakfast costs.",
+      "Buy the Old Town Trolley + Tea Party package online in advance ($78.95/pp, saves ~15%); the trolley combo has no senior rate.",
+      "Use SENIOR admission where offered: Plimoth Combination Pass ($39.60 vs $44), Pilgrim Hall ($12 vs $15), Larz Anderson ($10 vs $12), Newport Car Museum ($15 vs $20), Mayflower Society House ($5 vs $7). Newport Mansions and the trolley combo do NOT offer senior pricing.",
+      "Newport Mansions 'Breakers + 1' combo ($45/pp) covers The Breakers + Marble House; The Breakers requires a timed-entry reservation — book online ahead.",
+      "Memorial Day weekend (May 24–25) means Boston hotels and flights are pricier. Book the Wyndham Beacon Hill and airfare early.",
       "Several free attractions keep activity costs low: USS Constitution, Beavertail Lighthouse, Cliff Walk, Burial Hill, Harborwalk.",
       "Book the farewell dinner at Castle Hill Inn or The Chanler at least 2 weeks ahead — these fill up in late May."
     ]

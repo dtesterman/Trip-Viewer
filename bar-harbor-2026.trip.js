@@ -13,7 +13,7 @@ window.__TRIPS__.push({
   "alignmentNote": "Best travel dates: Arrive Sunday Oct 11. This puts Cadillac Mountain on a Tuesday (no weekend crowds) and Seal Cove Auto Museum on a Wednesday (open daily through Oct 31). Most Bar Harbor restaurants stay open through mid-October — reserve dinners by early September.",
   "days": [
     {
-      "dayNumber": 0,
+      "dayNumber": 1,
       "title": "Arrival in Maine",
       "subtitle": "Sunday, October 11",
       "category": "travel",
@@ -21,7 +21,7 @@ window.__TRIPS__.push({
       "drivingMiles": "50 mi",
       "stops": [
         {
-          "id": "bh-0-1",
+          "id": "d1-bh-0-1",
           "time": "Morning – Afternoon",
           "name": "DFW → BGR (connecting flight)",
           "mapUrl": "https://www.google.com/maps/search/DFW+Airport+Dallas+Texas",
@@ -34,7 +34,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-0-2",
+          "id": "d1-bh-0-2",
           "time": "Late Afternoon",
           "name": "Pick up rental car at BGR",
           "mapUrl": "https://www.google.com/maps/search/Bangor+International+Airport+BGR",
@@ -51,7 +51,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-0-3",
+          "id": "d1-bh-0-3",
           "time": "Evening",
           "name": "Check in — The Inn on Mount Desert (or similar)",
           "mapUrl": "https://www.google.com/maps/search/The+Inn+on+Mount+Desert+Bar+Harbor+Maine",
@@ -72,7 +72,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-0-4",
+          "id": "d1-bh-0-4",
           "time": "7:00 PM",
           "name": "Dinner — La Bella Vita",
           "mapUrl": "https://www.google.com/maps/search/La+Bella+Vita+Bar+Harbor+Maine",
@@ -93,7 +93,7 @@ window.__TRIPS__.push({
       "tip": "💡 If your flight arrives early enough, take the slightly longer Route 3 through Trenton for water views on the approach to Mount Desert Island."
     },
     {
-      "dayNumber": 1,
+      "dayNumber": 2,
       "title": "Park Loop Road Scenic Drive",
       "subtitle": "Monday, October 12",
       "category": "nature",
@@ -101,7 +101,7 @@ window.__TRIPS__.push({
       "drivingMiles": "27 mi loop",
       "stops": [
         {
-          "id": "bh-1-1",
+          "id": "d2-bh-1-1",
           "time": "9:00 AM",
           "name": "Hulls Cove Visitor Center — Start Park Loop Road",
           "mapUrl": "https://www.google.com/maps/search/Hulls+Cove+Visitor+Center+Acadia+National+Park",
@@ -118,7 +118,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-1-2",
+          "id": "d2-bh-1-2",
           "time": "9:45 AM",
           "name": "Sand Beach",
           "mapUrl": "https://www.google.com/maps/search/Sand+Beach+Acadia+National+Park",
@@ -129,13 +129,13 @@ window.__TRIPS__.push({
             "type": "free"
           },
           "coords": {
-            "lat": 44.3290,
+            "lat": 44.329,
             "lng": -68.1833
           },
           "status": "planned"
         },
         {
-          "id": "bh-1-3",
+          "id": "d2-bh-1-3",
           "time": "10:15 AM",
           "name": "Thunder Hole",
           "mapUrl": "https://www.google.com/maps/search/Thunder+Hole+Acadia+National+Park",
@@ -152,7 +152,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-1-4",
+          "id": "d2-bh-1-4",
           "time": "10:45 AM",
           "name": "Otter Cliffs Overlook",
           "mapUrl": "https://www.google.com/maps/search/Otter+Cliffs+Acadia+National+Park",
@@ -169,7 +169,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-1-5",
+          "id": "d2-bh-1-5",
           "time": "12:00 PM",
           "name": "Lunch — Jordan Pond House",
           "mapUrl": "https://www.google.com/maps/search/Jordan+Pond+House+Acadia+National+Park",
@@ -187,7 +187,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-1-6",
+          "id": "d2-bh-1-6",
           "time": "6:30 PM",
           "name": "Dinner — Mama DiMatteo's",
           "mapUrl": "https://www.google.com/maps/search/Mama+DiMatteos+Bar+Harbor+Maine",
@@ -208,7 +208,7 @@ window.__TRIPS__.push({
       "tip": "💡 Reserve Jordan Pond House well in advance — it's the most popular lunch spot in Acadia and books up even in October. Check incoming tide times for Thunder Hole; the effect is best 1–2 hours before high tide."
     },
     {
-      "dayNumber": 2,
+      "dayNumber": 3,
       "title": "Cadillac Mountain & Bar Harbor Village",
       "subtitle": "Tuesday, October 13",
       "category": "mixed",
@@ -216,14 +216,14 @@ window.__TRIPS__.push({
       "drivingMiles": "15 mi",
       "stops": [
         {
-          "id": "bh-2-1",
+          "id": "d3-bh-2-1",
           "time": "9:00 AM",
           "name": "Cadillac Mountain Summit Drive",
           "mapUrl": "https://www.google.com/maps/search/Cadillac+Mountain+Summit+Acadia+National+Park",
           "placeholderEmoji": "⛰️",
           "description": "Drive to the top of the highest point on the U.S. Atlantic coast (1,530 ft). 360-degree panorama of Frenchman Bay, the Porcupine Islands, and fall foliage in every direction. Paved summit area with interpretive signs.",
           "pricing": {
-            "amount": "$6 vehicle reservation",
+            "amount": "$6 + $4 fee",
             "type": "confirmed"
           },
           "coords": {
@@ -233,7 +233,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-2-2",
+          "id": "d3-bh-2-2",
           "time": "11:00 AM",
           "name": "Abbe Museum (Downtown)",
           "mapUrl": "https://www.google.com/maps/search/Abbe+Museum+26+Mount+Desert+Street+Bar+Harbor+Maine",
@@ -241,17 +241,17 @@ window.__TRIPS__.push({
           "description": "Smithsonian-affiliated museum showcasing 10,000 years of Wabanaki Native American history and culture. The largest collection of Maine Native American basketry in any museum. Allow 1–1.5 hours.",
           "hours": "Open year-round",
           "pricing": {
-            "amount": "$10/person",
+            "amount": "$9/person (senior)",
             "type": "confirmed"
           },
           "coords": {
-            "lat": 44.3880,
-            "lng": -68.2060
+            "lat": 44.388,
+            "lng": -68.206
           },
           "status": "planned"
         },
         {
-          "id": "bh-2-3",
+          "id": "d3-bh-2-3",
           "time": "1:00 PM",
           "name": "Bar Harbor Village & Waterfront",
           "mapUrl": "https://www.google.com/maps/search/Bar+Harbor+Village+Green+Maine",
@@ -268,7 +268,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-2-4",
+          "id": "d3-bh-2-4",
           "time": "6:30 PM",
           "name": "Dinner — The Royal Indian",
           "mapUrl": "https://www.google.com/maps/search/The+Royal+Indian+Bar+Harbor+Maine",
@@ -288,7 +288,7 @@ window.__TRIPS__.push({
       "tip": "💡 Cadillac Mountain vehicle reservations must be booked at recreation.gov — 30% release 90 days out, 70% release 2 days before. Set a reminder for July 15 to book the 90-day window for Oct 13. Bring a jacket; it's always 10–15°F cooler at the summit."
     },
     {
-      "dayNumber": 3,
+      "dayNumber": 4,
       "title": "Quiet Side of Mount Desert Island",
       "subtitle": "Wednesday, October 14",
       "category": "history",
@@ -296,7 +296,7 @@ window.__TRIPS__.push({
       "drivingMiles": "40 mi",
       "stops": [
         {
-          "id": "bh-3-1",
+          "id": "d4-bh-3-1",
           "time": "9:30 AM",
           "name": "Seal Cove Auto Museum",
           "mapUrl": "https://www.google.com/maps/search/Seal+Cove+Auto+Museum+1414+Tremont+Road+Maine",
@@ -314,16 +314,16 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-3-2",
+          "id": "d4-bh-3-2",
           "time": "12:00 PM",
           "name": "Asticou Azalea Garden",
           "mapUrl": "https://www.google.com/maps/search/Asticou+Azalea+Garden+Northeast+Harbor+Maine",
           "placeholderEmoji": "🌿",
-          "description": "A 2.3-acre Japanese stroll garden with raked gravel paths, a great pond, and lily pond. In mid-October, the weeping hemlocks, birches, and maples blaze with red, orange, and gold. Flat, easy walking. Allow 45 min – 1 hour.",
+          "description": "A 2.3-acre Japanese stroll garden with raked gravel paths, a great pond, and lily pond. In mid-October, the weeping hemlocks, birches, and maples blaze with red, orange, and gold. Flat, easy walking. Allow 45 min – 1 hour. Suggested donation $5/person — not required for entry; verify garden is open through Nov 1.",
           "hours": "May 1 – Oct 31, daylight hours",
           "pricing": {
-            "amount": "$5 donation",
-            "type": "confirmed"
+            "amount": "$5 suggested donation",
+            "type": "estimated"
           },
           "coords": {
             "lat": 44.3033,
@@ -332,7 +332,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-3-3",
+          "id": "d4-bh-3-3",
           "time": "1:30 PM",
           "name": "Northeast Harbor Village",
           "mapUrl": "https://www.google.com/maps/search/Northeast+Harbor+Maine",
@@ -349,7 +349,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-3-4",
+          "id": "d4-bh-3-4",
           "time": "2:30 PM",
           "name": "Sargent Drive Scenic Road",
           "mapUrl": "https://www.google.com/maps/search/Sargent+Drive+Northeast+Harbor+Maine",
@@ -360,13 +360,13 @@ window.__TRIPS__.push({
             "type": "free"
           },
           "coords": {
-            "lat": 44.3180,
-            "lng": -68.2890
+            "lat": 44.318,
+            "lng": -68.289
           },
           "status": "planned"
         },
         {
-          "id": "bh-3-5",
+          "id": "d4-bh-3-5",
           "time": "6:30 PM",
           "name": "Farewell Dinner — Testa's",
           "mapUrl": "https://www.google.com/maps/search/Testas+Restaurant+Bar+Harbor+Maine",
@@ -379,7 +379,7 @@ window.__TRIPS__.push({
           },
           "coords": {
             "lat": 44.3879,
-            "lng": -68.2050
+            "lng": -68.205
           },
           "status": "planned"
         }
@@ -387,7 +387,7 @@ window.__TRIPS__.push({
       "tip": "💡 Drive west to Seal Cove first, then loop east to Northeast Harbor and take Sargent Drive back. This routing avoids backtracking and gives you three distinct experiences — automotive history, Japanese garden serenity, and a coastal fjord drive."
     },
     {
-      "dayNumber": 4,
+      "dayNumber": 5,
       "title": "Schoodic Peninsula",
       "subtitle": "Thursday, October 15",
       "category": "nature",
@@ -395,7 +395,7 @@ window.__TRIPS__.push({
       "drivingMiles": "80 mi round trip",
       "stops": [
         {
-          "id": "bh-4-1",
+          "id": "d5-bh-4-1",
           "time": "9:00 AM",
           "name": "Drive to Schoodic Peninsula",
           "mapUrl": "https://www.google.com/maps/search/Schoodic+Peninsula+Acadia+National+Park+Winter+Harbor+Maine",
@@ -408,7 +408,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-4-2",
+          "id": "d5-bh-4-2",
           "time": "10:15 AM",
           "name": "Schoodic Point",
           "mapUrl": "https://www.google.com/maps/search/Schoodic+Point+Acadia+National+Park",
@@ -425,7 +425,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-4-3",
+          "id": "d5-bh-4-3",
           "time": "11:00 AM",
           "name": "Blueberry Hill Overlook",
           "mapUrl": "https://www.google.com/maps/search/Blueberry+Hill+Overlook+Schoodic+Acadia",
@@ -436,13 +436,13 @@ window.__TRIPS__.push({
             "type": "free"
           },
           "coords": {
-            "lat": 44.3400,
-            "lng": -68.0500
+            "lat": 44.34,
+            "lng": -68.05
           },
           "status": "planned"
         },
         {
-          "id": "bh-4-4",
+          "id": "d5-bh-4-4",
           "time": "12:30 PM",
           "name": "Lunch in Winter Harbor",
           "mapUrl": "https://www.google.com/maps/search/Winter+Harbor+Maine+restaurants",
@@ -459,7 +459,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-4-5",
+          "id": "d5-bh-4-5",
           "time": "3:00 PM",
           "name": "Last stroll through Bar Harbor",
           "mapUrl": "https://www.google.com/maps/search/Bar+Harbor+shops+Cottage+Street+Maine",
@@ -472,7 +472,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-4-6",
+          "id": "d5-bh-4-6",
           "time": "6:30 PM",
           "name": "Dinner — Geddy's",
           "mapUrl": "https://www.google.com/maps/search/Geddys+Bar+Harbor+Maine",
@@ -492,7 +492,7 @@ window.__TRIPS__.push({
       "tip": "💡 Schoodic is far less crowded than the main park, even in foliage season. The loop road is one-way and narrow in places — take your time and pull off at every overlook. Budget about 3 hours for the full Schoodic experience."
     },
     {
-      "dayNumber": 5,
+      "dayNumber": 6,
       "title": "Departure",
       "subtitle": "Friday, October 16",
       "category": "travel",
@@ -500,7 +500,7 @@ window.__TRIPS__.push({
       "drivingMiles": "50 mi",
       "stops": [
         {
-          "id": "bh-5-1",
+          "id": "d6-bh-5-1",
           "time": "Morning",
           "name": "Drive Bar Harbor → BGR",
           "mapUrl": "https://www.google.com/maps/search/Bangor+International+Airport+BGR",
@@ -513,7 +513,7 @@ window.__TRIPS__.push({
           "status": "planned"
         },
         {
-          "id": "bh-5-2",
+          "id": "d6-bh-5-2",
           "time": "Midday",
           "name": "Fly BGR → DFW (connecting)",
           "mapUrl": "https://www.google.com/maps/search/DFW+Airport+Dallas+Texas",
@@ -537,13 +537,14 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Round-trip DFW ↔ BGR (2 people)",
-            "detail": "Connecting via DCA, CLT, or PHL · American, Delta, or United",
+            "detail": "Connecting via DCA, CLT, or PHL · American/Delta/United · ~$320 RT/person current Oct 2026 fares",
             "cost": {
-              "budget": 600,
+              "budget": 640,
               "mid": 700,
-              "high": 800
+              "high": 780
             },
-            "priceType": "estimated"
+            "priceType": "estimated",
+            "note": "Current fares ~$320 RT/person (Delta) for Oct 2026; book by August before foliage demand climbs."
           }
         ]
       },
@@ -553,17 +554,17 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "5-day rental (midsize sedan/SUV)",
-            "detail": "Enterprise or similar via BGR",
+            "detail": "BGR airport · midsize ~$28–35/day, SUV ~$44/day all-in (taxes & airport concession fees included)",
             "cost": {
-              "budget": 250,
-              "mid": 325,
-              "high": 400
+              "budget": 150,
+              "mid": 200,
+              "high": 260
             },
             "priceType": "estimated"
           },
           {
             "item": "Gas (~250 miles)",
-            "detail": "~8 gallons at $3.50–$4.00",
+            "detail": "~250 mi · ~8 gal at $3.50–$4.00 (Maine Oct 2026)",
             "cost": {
               "budget": 30,
               "mid": 40,
@@ -579,14 +580,14 @@ window.__TRIPS__.push({
         "items": [
           {
             "item": "Bar Harbor inn (5 nights)",
-            "detail": "The Inn on Mount Desert, Bass Cottage, or similar · breakfast included",
+            "detail": "The Inn on Mount Desert (avg ~$115/night; deals from ~$79) · Bass Cottage = upscale alt · breakfast included",
             "cost": {
-              "budget": 750,
-              "mid": 875,
-              "high": 1000
+              "budget": 575,
+              "mid": 700,
+              "high": 850
             },
             "priceType": "estimated",
-            "note": "No Club Wyndham available near Bar Harbor. Check RCI exchanges for potential timeshare savings. Mid-October rates drop 20–30% after Columbus Day."
+            "note": "No Club Wyndham timeshare near Bar Harbor — this is cash lodging. The Inn on Mount Desert averages ~$115/night with post-Columbus Day rates dropping 20–30%; Bass Cottage Inn is a pricier alternative. Check RCI exchanges for potential timeshare savings."
           }
         ]
       },
@@ -606,27 +607,27 @@ window.__TRIPS__.push({
           },
           {
             "item": "Cadillac Mountain vehicle reservation",
-            "detail": "Daytime slot via recreation.gov",
+            "detail": "$6 vehicle reservation + $4 recreation.gov processing fee",
             "cost": {
-              "budget": 6,
-              "mid": 6,
-              "high": 6
+              "budget": 10,
+              "mid": 10,
+              "high": 10
             },
             "priceType": "confirmed"
           },
           {
             "item": "Abbe Museum (Downtown)",
-            "detail": "$10/pp × 2",
+            "detail": "$9/pp senior × 2",
             "cost": {
-              "budget": 20,
-              "mid": 20,
-              "high": 20
+              "budget": 18,
+              "mid": 18,
+              "high": 18
             },
             "priceType": "confirmed"
           },
           {
             "item": "Seal Cove Auto Museum",
-            "detail": "$8/pp (senior) × 2",
+            "detail": "$8/pp senior × 2",
             "cost": {
               "budget": 16,
               "mid": 16,
@@ -636,13 +637,13 @@ window.__TRIPS__.push({
           },
           {
             "item": "Asticou Azalea Garden",
-            "detail": "$5 donation × 2",
+            "detail": "$5/pp suggested donation × 2 (optional, not required)",
             "cost": {
               "budget": 10,
               "mid": 10,
               "high": 10
             },
-            "priceType": "confirmed"
+            "priceType": "estimated"
           },
           {
             "item": "Schoodic Peninsula / Park Loop Road / overlooks",
@@ -710,17 +711,18 @@ window.__TRIPS__.push({
       }
     ],
     "totals": {
-      "budget": 2207,
-      "mid": 2682,
-      "high": 3177
+      "budget": 1974,
+      "mid": 2384,
+      "high": 2869
     },
     "tips": [
-      "Book flights by August — DFW→BGR fares climb as fall foliage season approaches. Set a fare alert on Google Flights.",
-      "Check RCI exchanges — even without a Club Wyndham nearby, your Wyndham points may exchange through RCI for a local vacation rental.",
-      "Inn breakfast saves $150+ — choose a B&B with complimentary breakfast. At $15–20/person/day, that's $150–$200 saved over 5 nights.",
-      "Post–Columbus Day pricing — hotel rates in Bar Harbor drop 20–30% after Columbus Day weekend. Your Oct 11 arrival catches this sweet spot.",
-      "Cadillac Mountain 2-day window — 70% of vehicle reservations release just 2 days before. If you miss the 90-day window, you'll likely still get a slot.",
-      "Pack layers — mid-October temps range from low 40s at night to upper 50s by day. Good jacket and layers prevent buying emergency warm clothes in tourist shops."
+      "Book flights by August — current DFW↔BGR Oct 2026 fares run ~$320 RT/person (Delta via DCA/CLT/PHL) but climb as foliage season approaches. Set a Google Flights fare alert.",
+      "No Club Wyndham near Bar Harbor — lodging is cash. The Inn on Mount Desert averages ~$115/night; check RCI exchanges to spend Wyndham points on a local rental instead.",
+      "Inn breakfast saves $150+ — complimentary breakfast at the inn avoids $15–20/person/day, roughly $150–$200 over 5 nights.",
+      "Post–Columbus Day pricing — Bar Harbor lodging drops 20–30% after Columbus Day weekend. Your Oct 11 arrival catches this sweet spot.",
+      "Cadillac Mountain costs $10 total — $6 vehicle reservation plus a $4 recreation.gov processing fee, separate from the park pass. 70% of slots release just 2 days out at 10am EST.",
+      "Senior rates applied — Abbe Museum ($9 vs $12 adult) and Seal Cove Auto Museum ($8 vs $10 adult) both offer senior discounts; bring ID.",
+      "Pack layers — mid-October ranges from low 40s at night to upper 50s by day; the Cadillac summit is 10–15°F cooler."
     ]
   }
 });
